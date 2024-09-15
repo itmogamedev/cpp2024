@@ -25,6 +25,10 @@ void fibbonacci_print(int n) {
 }
 
 int main() {
-    fibbonacci_print(10);
+    int n;
+    std::cout << "How many Fibonacci numbers do you want to see: ";
+    std::cin >> n;
+    //std::cout << '\n';
+    fibbonacci_print(n);
     return 0;
 }
