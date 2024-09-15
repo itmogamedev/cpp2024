@@ -30,14 +30,29 @@ int count_digits(int number) {
 void show_smart_reverse_number(int number) { // Вывод с ведущими нулями
     int rev_num = reverse_number(number);
     int how_many_zeroes = count_digits(number) - count_digits(rev_num);
+
     for (int i = 0; i < how_many_zeroes; ++i) {
         std::cout << 0;
     }
-    std::cout<< rev_num << '\n';
+    bool min = false; // Если бы стринги были разрешены, можно было бы сделать проще.
+    if (rev_num < 0) {
+        min = true;
+        rev_num = -rev_num;
+    }
+    std::cout << rev_num;
+    if (min) {
+        std::cout << "-";
+    }
+    std::cout << "\n";
 }
 
 int main() {
-    std::cout << reverse_number(1234567) << '\n'; // если следовать ТЗ
-    show_smart_reverse_number(1000000);
+    int num;
+    std::cout << "Number that you want reversed:";
+    std::cin >> num;
+
+    std::cout << "Version without leading zeroes and '-' afterwards: " << reverse_number(num) << '\n'; // если следовать ТЗ
+    std::cout << "Alternative version: ";
+    show_smart_reverse_number(num);
     return 0;
 }
