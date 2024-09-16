@@ -1,6 +1,7 @@
 //
 // Created by Максим Евдокимов on 16.09.2024.
 //
+
 #include "iostream"
 
 void compute_n_fibonacci(const int n) {
