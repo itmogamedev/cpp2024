@@ -1,6 +1,5 @@
 #include<iostream>
 
-using namespace std;
 
 int Fibo(int n) {
 	if (n >= 0) {
@@ -40,9 +39,9 @@ int Fibo(int n) {
 int main() {
 
 	int n;
-	cout << "Please enter n: ";
-	cin >> n;
-	cout << Fibo(n);
+	std::cout << "Please enter n: ";
+	std::cin >> n;
+	std::cout << Fibo(n);
 
 	return 0;
 }

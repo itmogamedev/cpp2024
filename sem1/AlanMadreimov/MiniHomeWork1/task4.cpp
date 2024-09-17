@@ -1,6 +1,5 @@
 #include<iostream>
 
-using namespace std;
 
 int Reverser(int num, int nDoz) {
 	int addN, nNeg = -1;
@@ -17,13 +16,13 @@ int Reverser(int num, int nDoz) {
 
 int main() {
 	int number,numDozens;
-	cout << "Enter number to reverse: ";
-	cin >> number;
+	std::cout << "Enter number to reverse: ";
+	std::cin >> number;
 	for (int i = 1; pow(10,i) <= number; i++) {
 		numDozens = i;
 	}
 	numDozens++;
-	cout << Reverser(number, numDozens);
+	std::cout << Reverser(number, numDozens);
 
 	return 0;
 }
@@ -32,13 +31,12 @@ int main() {
 * Покопался немного с cin.peek() и cin.get() заодно решил добавил isdigit
 #include <iostream>
 #include <vector>
-using namespace std;
 
 void revers() {
     char ch;
     vector<int> digits;
 
-    cout << "Enter number: ";
+    std::cout << "Enter number: ";
 
     while (cin.peek() != '\n') {
         ch = cin.get(); 
@@ -47,9 +45,9 @@ void revers() {
         }
     }
     for (int i = digits.size() - 1; i >= 0; --i) {
-		cout << digits[i]; 
+		std::cout << digits[i]; 
     }
-    cout << endl;
+    std::cout << std::endl;
 }
 
 int main() {
