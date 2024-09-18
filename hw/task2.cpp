@@ -1,5 +1,5 @@
 #include <iostream>
-//çàäàíèå 2
+//задание 2
 int main() {
 	std::cout << "Введите длинну одного основания: \n";
 	float base1;
