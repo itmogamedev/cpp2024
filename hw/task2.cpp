@@ -1,19 +1,15 @@
 #include <iostream>
-//задание 2
+//Г§Г Г¤Г Г­ГЁГҐ 2
 int main() {
-	std::cout << "введите длинну основания: \n";
+	std::cout << "Р’РІРµРґРёС‚Рµ РґР»РёРЅРЅСѓ РѕРґРЅРѕРіРѕ РѕСЃРЅРѕРІР°РЅРёСЏ: \n";
 	float base1;
 	std::cin >> base1;
-	std::cout << "второго: \n";
+	std::cout << Р’С‚РѕСЂРѕРіРѕ: \n";
 	float base2;
 	std::cin >> base2;
-	std::cout << "и высоту \n";
+	std::cout << Рё РІС‹СЃРѕС‚Сѓ: \n";
 	float height;
 	std::cin >> height;
-	std::cout << (base1 + base2);
-	std::cout << "\n";
-	std::cout << (base1 + base2) / 2;
-	std::cout << "\n";
-	return (base1 + base2) / 2 * height;
+	std::cout <<"РїР»РѕС‰Р°РґСЊ:"<< (base1 + base2) / 2 * height;
 	return 0;
 }
