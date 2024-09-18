@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
-//задание 4
+//Р·Р°РґР°РЅРёРµ 4
 int main() {
 	setlocale(LC_ALL, "RU");
-	std::cout << "Введите необходимое число";
+	std::cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ, РєРѕС‚РѕСЂРѕРµ РЅСѓР¶РЅРѕ РѕС‚Р·РµСЂРєР°Р»РёС‚СЊ:";
 	int ToCountLenght;
 	std::cin >> ToCountLenght;
 	int ToReverse = ToCountLenght;
@@ -13,7 +13,6 @@ int main() {
 	} while (ToCountLenght /= 10);
 	int  result = 0;
 	for (int i = 0; i < len; i++) {
-		std::cout << ToReverse / int(pow(10, len - i - 1)) % 10 << "\n";
 		result += ToReverse / int(pow(10, len - i - 1)) % 10 * pow(10, i);
 	}
 	std::cout << result << "\n";
