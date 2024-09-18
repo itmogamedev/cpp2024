@@ -1,47 +1,32 @@
 #include<iostream>
 
 
-int Fibo(int n) {
-	if (n >= 0) {
-		if (n == 0) {
-			return 0;
-		}
-		else if (n == 1) {
-			return 1;
-		}
-		return Fibo(n - 2) + Fibo(n - 1);
+void Fibo(int n,int firstn=0,int secondn=1) {
+	int temp;
+	if (n == 0) {
+		std::cout << firstn;
 	}
-	
+	else if (n == 1) {
+		std::cout << firstn << " " << secondn;
+	}
 	else {
-		if (n == 0) {
-			return 0;
+		std::cout << "0" << " " << "1 ";
+		for (int i = 2; i < n; i++) {
+			temp = firstn + secondn;
+			firstn = secondn;
+			secondn = temp;
+			std::cout << temp << " ";
 		}
-		else if (n == -1) {
-			return 1;
-		}
-		return Fibo(n + 2) - Fibo(n + 1);
-
 	}
 }
-/* Числа Фибоначчи иногда рассматриваются и отрицательные, если они не нужны то else в функции полностью комментируется и
-	в main вместо кода, который там стоит пишется этот:
-	int n;
-	do{
-		cout << "Please enter n: ";
-		cin >> n;
-		if (n < 0){
-			cout << "Fibonachi number can't be -";
-		}
-	} while (n < 0);
-	cout << Fibo(n);
-	return 0;
-*/
+
 int main() {
 
 	int n;
 	std::cout << "Please enter n: ";
 	std::cin >> n;
-	std::cout << Fibo(n);
+
+	Fibo(n);
 
 	return 0;
 }
