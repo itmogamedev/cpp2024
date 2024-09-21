@@ -1,17 +1,17 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "Rus");
 	float UpperSideTrapezoid, LowerSideTrapezoid, TrapezoidHeight, HalfSumBases, TrapezoidArea;
-	cout << "Ââåäèòå äëèíó âåðõíåãî îñíîâàíèÿ Âàøåé òðàïåöèè:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ Ð²ÐµÑ€Ñ…Ð½ÐµÐ³Ð¾ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ñ Ð’Ð°ÑˆÐµÐ¹ Ñ‚Ñ€Ð°Ð¿ÐµÑ†Ð¸Ð¸:";
 	cin >> UpperSideTrapezoid;
-	cout << "Ââåäèòå äëèíó íèæíåãî îñíîâàíèÿ Âàøåé òðàïåöèè:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ Ð½Ð¸Ð¶Ð½ÐµÐ³Ð¾ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ñ Ð’Ð°ÑˆÐµÐ¹ Ñ‚Ñ€Ð°Ð¿ÐµÑ†Ð¸Ð¸:";
 	cin >> LowerSideTrapezoid;
-	cout << "Ââåäèòå âûñîòó Âàøåé òðàïåöèè:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ð’Ð°ÑˆÐµÐ¹ Ñ‚Ñ€Ð°Ð¿ÐµÑ†Ð¸Ð¸:";
 	cin >> TrapezoidHeight;
 	HalfSumBases = (UpperSideTrapezoid + LowerSideTrapezoid) / 2;
 	TrapezoidArea = HalfSumBases * TrapezoidHeight;
-	cout << "Ïëîùàäü Âàøåé òðàïåöèè:" << TrapezoidArea;
+	cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð’Ð°ÑˆÐµÐ¹ Ñ‚Ñ€Ð°Ð¿ÐµÑ†Ð¸Ð¸:" << TrapezoidArea;
 }

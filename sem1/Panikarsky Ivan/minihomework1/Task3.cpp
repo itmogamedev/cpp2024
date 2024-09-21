@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main()
@@ -9,7 +9,7 @@ int main()
 	digitsFIB = 0;
 	digitsFIB_bag = 0;
 	digitsFIB_result = 0;
-	cout << "\t\t\t\tÂâåäèòå êîëè÷åñòâî ÷èñåë Ôèáîíà÷÷è, êîòîðûå Âû õîòèòå óçíàòü:";
+	cout << "\t\t\t\tÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð¸ÑÐµÐ» Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð’Ñ‹ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ·Ð½Ð°Ñ‚ÑŒ:";
 	cin >> Nmax;
 	cout << "\n\n";
 	N = Nmax;
@@ -19,7 +19,7 @@ int main()
 	switch (Check)
 	{
 	case 1:
-		cout << Cnt++ << " ×èñëî Ôèáîíà÷÷è: " << digitsFIB << "\n\n";
+		cout << Cnt++ << " Ð§Ð¸ÑÐ»Ð¾ Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: " << digitsFIB << "\n\n";
 		N--;
 		digitsFIB++;
 
@@ -27,7 +27,7 @@ int main()
 		for (int i = 1; N != 0; N--)
 		{
 			digitsFIB_result = digitsFIB + digitsFIB_bag;
-			cout << Cnt++ << " ×èñëî Ôèáîíà÷÷è: " << digitsFIB_result << "\n\n";
+			cout << Cnt++ << " Ð§Ð¸ÑÐ»Ð¾ Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: " << digitsFIB_result << "\n\n";
 			digitsFIB = digitsFIB_bag;
 			digitsFIB_bag = digitsFIB_result;
 		}

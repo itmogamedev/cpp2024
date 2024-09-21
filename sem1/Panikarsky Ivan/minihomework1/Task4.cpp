@@ -1,11 +1,11 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 int main()
 {
 	setlocale(LC_ALL, "ru");
 	int number, digit, number_bag, cnt, number_bag1;
-	cout << "Ââåäèòå Âàøå ÷èñëî:";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ’Ğ°ÑˆĞµ Ñ‡Ğ¸ÑĞ»Ğ¾:";
 	cin >> number;
 	cout << "\n";
 	cnt = 0;
@@ -15,7 +15,7 @@ int main()
 		number /= 10;
 		cnt++;
 	}
-	cout << "Âàøå ÷èñëî â îáğàòíîì ïîğÿäêå:";
+	cout << "Ğ’Ğ°ÑˆĞµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ² Ğ¾Ğ±Ñ€Ğ°Ñ‚Ğ½Ğ¾Ğ¼ Ğ¿Ğ¾Ñ€ÑĞ´ĞºĞµ:";
 	for (; cnt > 0; cnt--)
 	{
 		switch (number_bag % 10)
