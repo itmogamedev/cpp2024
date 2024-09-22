@@ -5,7 +5,7 @@ int main()
 {
 	unsigned int quantity = 0;
 	unsigned int storage = 0;
-	std::cout << "How many elements?";
+	std::cout << "How many elements?" << std::endl;
 	std::cin >> quantity;
 	unsigned int FirstNumber = 1;
 	unsigned int SecondNumber = 1;
