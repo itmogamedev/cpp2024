@@ -21,14 +21,14 @@ void TrapezoidArea2() {
 }
 
 void TrapezoidArea3() {
-    float diagonal1, diagonal2, sinus;
+    float diagonal1, diagonal2, sine;
     std::cout << "Please, enter the first diagonal:" << std::endl;
     std::cin >> diagonal1;
     std::cout << "Please, enter the second diagonal:" << std::endl;
     std::cin >> diagonal2;
-    std::cout << "Please, enter the sinus of the angle between the diagonals:" << std::endl;
-    std::cin >> sinus;
-    std::cout << "The area of the trapezoid: " << diagonal1 * diagonal2 * sinus * 0.5;
+    std::cout << "Please, enter the sine of the angle between the diagonals:" << std::endl;
+    std::cin >> sine;
+    std::cout << "The area of the trapezoid: " << diagonal1 * diagonal2 * sine * 0.5;
 }
 
 int main() {
