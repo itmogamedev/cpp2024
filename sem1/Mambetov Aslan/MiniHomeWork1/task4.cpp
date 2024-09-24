@@ -18,7 +18,7 @@ int main() {
     std::cout << std::fixed << std::setprecision(32);
 #endif
 
-    int n = 132001;
+    int n; std::cin >> n;
     int tmp = n;
     int l = 1, r = 10;
     int result = 0;
