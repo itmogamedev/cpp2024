@@ -5,19 +5,18 @@ static float TrapezoidArea(float UpperSide, float LowerSide, float Height) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     int InputUpperSide;
     int InputLowerSide;
     int Height;
-    std::cout << "¬ведите длину верхнего основани€ трапеции: ";
+    std::cout << "Enter the length of the upper base of the trapezoid: ";
     std::cin >> InputUpperSide;
-    std::cout << "¬ведите длину нижнего основани€ трапеции: ";
+    std::cout << "Enter the length of the lower base of the trapezoid: ";
     std::cin >> InputLowerSide;
-    std::cout << "¬ведите высоту трапеции: ";
+    std::cout << "Enter the height of the trapezoid: ";
     std::cin >> Height;
 
     float Area = TrapezoidArea(InputUpperSide, InputLowerSide, Height);
-    std::cout << "ѕлощадь трапеции: " << Area;
+    std::cout << "Trapezoid area: " << Area;
 
     return 0;
 }

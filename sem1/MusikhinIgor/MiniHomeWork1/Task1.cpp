@@ -5,13 +5,12 @@ int SquareArea(int Length) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     int InputSide;
-    std::cout << "¬ведите длину стороны квадрата: ";
+    std::cout << "Enter the side length of the square: ";
     std::cin >> InputSide;
 
     int Area = SquareArea(InputSide);
-    std::cout << "ѕлощадь квадрата: " << Area;
+    std::cout << "Square area: " << Area;
 
     return 0;
 }

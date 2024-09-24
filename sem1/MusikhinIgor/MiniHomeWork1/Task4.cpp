@@ -1,10 +1,9 @@
 #include <iostream>
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     int Number = 0;
     int ReversedNumber = 0;
-    std::cout << "¬ведите число: ";
+    std::cout << "Enter number: ";
     std::cin >> Number;
 
     while (Number != 0) {
@@ -13,7 +12,7 @@ int main() {
         Number = Number / 10;
     }
 
-    std::cout << "ѕеревЄртыш: " << ReversedNumber << std::endl;
+    std::cout << "Reversed: " << ReversedNumber << std::endl;
 
     return 0;
 }

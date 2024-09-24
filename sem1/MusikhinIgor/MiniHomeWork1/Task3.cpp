@@ -1,9 +1,8 @@
 #include <iostream>
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     int N;
-    std::cout << "Введите количество элементов ряда Фибоначчи: ";
+    std::cout << "Enter the number of elements of the Fibonacci series: ";
     std::cin >> N;
     int a = 0;
     int b = 1;
