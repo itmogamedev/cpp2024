@@ -6,7 +6,7 @@ void square(float b)
 
 int main()
 {
-    int a;
+    float a;
     setlocale(LC_ALL, "ru");
     std::cout << "Введите длину стороны" << std::endl;
     std::cin >> a;
