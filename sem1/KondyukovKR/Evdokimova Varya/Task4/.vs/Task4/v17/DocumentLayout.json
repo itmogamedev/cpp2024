@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79214\\source\\repos\\Task4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF1F7FE1-E680-425A-9928-7DA5A65314EB}|Task4\\Task4.vcxproj|C:\\Users\\79214\\source\\repos\\Task4\\Task4\\Task4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AF1F7FE1-E680-425A-9928-7DA5A65314EB}|Task4\\Task4.vcxproj|solutionrelative:Task4\\Task4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task4.cpp",
+              "DocumentMoniker": "C:\\Users\\79214\\source\\repos\\Task4\\Task4\\Task4.cpp",
+              "RelativeDocumentMoniker": "Task4\\Task4.cpp",
+              "ToolTip": "C:\\Users\\79214\\source\\repos\\Task4\\Task4\\Task4.cpp",
+              "RelativeToolTip": "Task4\\Task4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T11:19:20.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
