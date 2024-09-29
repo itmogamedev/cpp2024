@@ -12,19 +12,21 @@ int main()
         {
             break;
         }
-        else if (N < 3)
+        else if (N == 1)
         {
-            for (int i = 0; i < N; i++)
-            {
-                std::cout << 1 << std::endl;
-            }
+            std::cout << 0 << std::endl;
+        }
+        else if (N == 2)
+        {
+            std::cout << 0 << std::endl;
+            std::cout << 1 << std::endl;
         }
         else
         {
-            double a = 1;
+            double a = 0;
             double b = 1;
 
-            std::cout << 1 << std::endl;
+            std::cout << 0 << std::endl;
             std::cout << 1 << std::endl;
 
             for (int i = 0; i < N - 2; i++)
