@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <math.h>
 
 int number_length(int number) {
     int num_length = 0;
@@ -21,7 +21,7 @@ int number_backwards_that_returns_number(int given_num) {
     return new_num;
 }
 
-void number_backwards (int number) {
+void number_backwards(int number) {
 
     while (number > 0) { // число, начинающиеся с ноля считается числом без него
         std::cout << number % 10;

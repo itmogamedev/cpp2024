@@ -8,7 +8,7 @@ void fibonacci(int num_left, unsigned long int previous_previous = 0, unsigned l
         std::cout << previous_previous << " " << previous << " ";
     }
 
-    int this_one = previous_previous + previous;
+    unsigned long int this_one = previous_previous + previous;
     num_left--;
     std::cout << this_one << " ";
 
@@ -20,7 +20,7 @@ void fibonacci(int num_left, unsigned long int previous_previous = 0, unsigned l
 
 int main()
 {
-    unsigned long int num_count;
+    int num_count;
     std::cout << "set Fibonacci sequence length: ";
     std::cin >> num_count;
     fibonacci(num_count);

@@ -8,5 +8,10 @@ int square_area(int side) {
 
 int main()
 {
-    std::cout << square_area(3) << std::endl;
+    int side;
+
+    std::cout << "Enter square side: ";
+    std::cin >> side;
+
+    std::cout << "Square area: " << square_area(side) << std::endl;
 }
