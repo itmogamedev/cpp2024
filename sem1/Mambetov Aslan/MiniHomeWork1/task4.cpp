@@ -3,25 +3,14 @@
 #include<cmath>
 
 
-const long long inf = 9e18;
-const double eps = 1e-6;
-const double pi = acos(-1);
-
-
-
 int main() {
-#ifdef LOCAL
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#else 
-    std::ios_base::sync_with_stdio(NULL); std::cin.tie(0);
-    std::cout << std::fixed << std::setprecision(32);
-#endif
+    setlocale(LC_ALL, "Russian");
 
-    int n; std::cin >> n;
-    int tmp = n;
-    int l = 1, r = 10;
-    int result = 0;
+    std::cout << "Введите число которое хотите перевернуть: ";
+    long long n; std::cin >> n;
+    long long tmp = n;
+    long long l = 1, r = 10;
+    long long result = 0;
 
     while (tmp > 0) {
         tmp /= 10;

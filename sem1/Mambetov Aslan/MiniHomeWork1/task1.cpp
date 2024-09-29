@@ -3,40 +3,42 @@
 #include<cmath>
 
 
-const long long inf = 9e18;
-const double eps = 1e-6;
-const double pi = acos(-1);
-
-
-
-int calcSqrAreaBySide(int sqrSide) {
+double calcSqrAreaBySide(double sqrSide) {
     return sqrSide * sqrSide;
 }
 
-int calcQuadrangleAreaByCoord(std::pair<double, double> point1,
-                       std::pair<double, double> point2,
-                       std::pair<double, double> point3,
-                       std::pair<double, double> point4) {
+double calcQuadrangleAreaByCoord(std::pair<double, double> point1,
+    std::pair<double, double> point2,
+    std::pair<double, double> point3,
+    std::pair<double, double> point4) {
     return abs(point1.first * point2.second + point2.first * point3.second + point3.first * point4.second + point4.first * point1.second -
-               point1.second * point2.first - point2.second * point3.first - point3.second * point4.first - point4.second * point1.first) / 2;
+        point1.second * point2.first - point2.second * point3.first - point3.second * point4.first - point4.second * point1.first) / 2;
 }
 
 
 
 int main() {
-#ifdef LOCAL
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#else 
-    std::ios_base::sync_with_stdio(NULL); std::cin.tie(0);
-    std::cout << std::fixed << std::setprecision(32);
-#endif
+    setlocale(LC_ALL, "Russian");
 
-    int x1 = 0, y1 = 0, x2 = 0, y2 = 3, x3 = 3, y3 = 3, x4 = 3, y4 = 0;
-    int side = 3;
+    int mode;
+    std::cout << "Как вы хотите узнать площадь квадрата? \n Введите 1, если по стороне \n Введите 2, если по координатам вершин \n";
+    std::cin >> mode;
 
-    std::cout << calcQuadrangleAreaByCoord({ x1, y1 }, { x2, y2 }, { x3, y3 }, { x4, y4 }) << "\n";
-    std::cout << calcSqrAreaBySide(side);
+    if (mode == 1) {
+        double side;
+        std::cout << "\nВведите сторону квадрата: ";
+        std::cin >> side;
+        std::cout << "\nПлощадь заданного квадрата: " << calcSqrAreaBySide(side) << "\n";
+    }
+    else if (mode == 2) {
+        double x1, y1, x2, y2, x3, y3, x4, y4;
+        std::cout << "Введите координаты x и y вершин квадрата (по 2 числа на каждой строчке):\n";
+        std::cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> x4 >> y4;
+        std::cout << "\nПлощадь заданного квадрата: " << calcQuadrangleAreaByCoord({ x1, y1 }, { x2, y2 }, { x3, y3 }, { x4, y4 }) << "\n";
+    }
+    else {
+        std::cout << "\nНекорректный режим\n";
+    }
 
     return 0;
 }

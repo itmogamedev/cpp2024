@@ -3,41 +3,48 @@
 #include<cmath>
 
 
-const long long inf = 9e18;
-const double eps = 1e-6;
-const double pi = acos(-1);
 
-
-
-int calcTrapezoidAreaByHeightAndBases(int height, int firstBase, int secondBase) {
+double calcTrapezoidAreaByHeightAndBases(int height, int firstBase, int secondBase) {
     return (firstBase + secondBase) / 2 * height;
 }
 
-int calcQuadrangleAreaByCoord(std::pair<double, double> point1,
-                       std::pair<double, double> point2,
-                       std::pair<double, double> point3,
-                       std::pair<double, double> point4) {
+double calcQuadrangleAreaByCoord(std::pair<double, double> point1,
+    std::pair<double, double> point2,
+    std::pair<double, double> point3,
+    std::pair<double, double> point4) {
     return abs(point1.first * point2.second + point2.first * point3.second + point3.first * point4.second + point4.first * point1.second -
-               point1.second * point2.first - point2.second * point3.first - point3.second * point4.first - point4.second * point1.first) / 2;
+        point1.second * point2.first - point2.second * point3.first - point3.second * point4.first - point4.second * point1.first) / 2;
 }
 
 
 
 
 int main() {
-#ifdef LOCAL
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#else 
-    std::ios_base::sync_with_stdio(NULL); std::cin.tie(0);
-    std::cout << std::fixed << std::setprecision(32);
-#endif
+    setlocale(LC_ALL, "Russian");
 
-    int x1 = 0, y1 = 0, x2 = 1, y2 = 3, x3 = 4, y3 = 3, x4 = 7, y4 = 0;
-    int height = 3, firstBase = 3, secondBase = 7;
+    int mode;
+    std::cout << "Как вы хотите узнать площадь трапеции? \n Введите 1, если по высоте и основаниям \n Введите 2, если по координатам вершин \n";
+    std::cin >> mode;
 
-    std::cout << calcQuadrangleAreaByCoord({ x1, y1 }, { x2, y2 }, { x3, y3 }, { x4, y4 }) << "\n";
-    std::cout << calcTrapezoidAreaByHeightAndBases(height, firstBase, secondBase);
+    if (mode == 1) {
+        double height, firstBase, secondBase;
+        std::cout << "Введите высоту: ";
+        std::cin >> height;
+        std::cout << "\nВведите первое основание: ";
+        std::cin >> firstBase;
+        std::cout << "\nВведите второе основание: ";
+        std::cin >> secondBase;
+        std::cout << "\nПлощадь заданной трапеции: " << calcTrapezoidAreaByHeightAndBases(height, firstBase, secondBase) << "\n";
+    }
+    else if (mode == 2) {
+        double x1, y1, x2, y2, x3, y3, x4, y4;
+        std::cout << "Введите координаты x и y вершин трапеции (по 2 числа на каждой строчке):\n";
+        std::cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> x4 >> y4;
+        std::cout << "\nПлощадь заданной трапеции: " << calcQuadrangleAreaByCoord({ x1, y1 }, { x2, y2 }, { x3, y3 }, { x4, y4 }) << "\n";
+    }
+    else {
+        std::cout << "\nНекорректный режим\n";
+    }
 
     return 0;
 }
