@@ -5,18 +5,8 @@ bool isNumber(const std::string s)
 {
 	return !s.empty() && (s.find_first_not_of("0123456789") == s.npos);
 }
-void TranslatorToOct(int input)
+void TranslatorToOct(int input,std::string sing)
 {
-	std::string sing;
-	if (input > 0)
-	{
-		sing = "";
-	}
-	else
-	{
-		sing = "-";
-		input *= -1;
-	}
 	std::string result;
 	while (input)
 	{
@@ -27,18 +17,8 @@ void TranslatorToOct(int input)
 	std::cout << "Result is: ";
 	std::cout << sing + result << std::endl;
 }
-void TranslatorToHex(int input)
+void TranslatorToHex(int input, std::string sing)
 {
-	std::string sing;
-	if (input > 0)
-	{
-		sing = "";
-	}
-	else
-	{
-		sing = "-";
-		input *= -1;
-	}
 	std::string result;
 	while (input)
 	{
@@ -81,9 +61,15 @@ void TranslatorToHex(int input)
 void Distribution(int op)
 {
 	std::string input;
+	std::string sing="";
 	int number = 0;
 	std::cout << "Enter number: ";
 	std::cin >> input;
+	if (input[0] == '-') 
+	{
+		sing = "-";
+		input = input.substr(1, input.size());
+	}
 	if (isNumber(input))
 	{
 		number = std::stoi(input);
@@ -96,19 +82,19 @@ void Distribution(int op)
 	switch (op)
 	{
 		case(1):
-			TranslatorToOct(number);
+			TranslatorToOct(number,sing);
 			break;
 		case(2):
-			TranslatorToHex(number);
+			TranslatorToHex(number,sing);
 			break;
 	}
 }
-void CheckInput(int op)
+void CheckInput(std::string op)
 {
-	if (op == 1 || op == 2)
+	if (op == "1" || op == "2")
 	{
 		std::cout << "The entered data is correct\n";
-		Distribution(op);
+		Distribution(std::stoi(op));
 	}
 	else
 	{
@@ -120,15 +106,16 @@ int main()
 	bool isStart = true;
 	while (isStart)
 	{
-		int option;
+		std::string option;
 		std::cout << "\nSelect option: \n1 - Dec to Oct \n2 - Dec to Hex\n3 - Exit\n";
 		std::cout << "Your choice - ";
 		std::cin >> option;
-		if (option == 3)
+		if (option == "3")
 		{
 			isStart = false;
 			break;
 		}
 		CheckInput(option);
 	}
+	return 0;
 }
