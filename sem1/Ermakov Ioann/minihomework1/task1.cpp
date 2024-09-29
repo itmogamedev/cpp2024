@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 
 int Square(int a)
@@ -6,5 +8,9 @@ int Square(int a)
 }
 int main()
 {
-    Square(8);
+    setlocale(LC_ALL, "Russian");
+    int b;
+    std::cout << "Введите длину стороны a: ";
+    std::cin >> b;
+    std::cout << "Площадь данного квадрата = " << Square(b);
 }
