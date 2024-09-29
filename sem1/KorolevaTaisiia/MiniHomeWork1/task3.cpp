@@ -26,7 +26,7 @@ void fibbonacci_print(int n) {
 
 int main() {
     int n;
-    std::cout << "How many Fibonacci numbers do you want to see: ";
+    std::cout << "Enter how many Fibonacci numbers do you want to see \n";
     std::cin >> n;
     //std::cout << '\n';
     fibbonacci_print(n);

@@ -7,7 +7,9 @@ double sqr_area(double square_side) {
 }
 
 int main() {
-
-    std::cout << sqr_area(4) << std::endl;
+    double sqr_a;
+    std::cout << "Enter square side \n";
+    std::cin >> sqr_a;
+    std::cout << "S = " << sqr_area(sqr_a) << std::endl;
     return 0;
 }

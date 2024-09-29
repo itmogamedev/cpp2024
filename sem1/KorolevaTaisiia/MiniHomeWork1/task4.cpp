@@ -48,7 +48,7 @@ void show_smart_reverse_number(int number) { // Вывод с ведущими �
 
 int main() {
     int num;
-    std::cout << "Number that you want reversed:";
+    std::cout << "Number that you want reversed \n";
     std::cin >> num;
 
     std::cout << "Version without leading zeroes and '-' afterwards: " << reverse_number(num) << '\n'; // если следовать ТЗ
