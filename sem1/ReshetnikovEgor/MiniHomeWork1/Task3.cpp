@@ -10,7 +10,7 @@ void Fibonachi(int last_numb) {
 	}
 }
 int main() {
-	setlocate(LS_ALL, "Russian")
+	setlocale(LC_ALL, "Russian");
 	int numb_fibon;
 	std::cout << "Введите число для последовательности фибоначи: ";
 	std::cin >> numb_fibon;
