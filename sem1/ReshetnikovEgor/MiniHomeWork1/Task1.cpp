@@ -5,7 +5,7 @@ int Square(int numb) {
 }
 
 int main() {
-	setlocate(LS_ALL,"Russian");
+	setlocale(LC_ALL, "Russian");
 	int input;
 	std::cout << "Введите сторону квадрата: ";
 	std::cin >>  input;
