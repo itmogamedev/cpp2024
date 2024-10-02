@@ -1,13 +1,10 @@
-﻿
-#include <iostream>
-using std::cout;
-using std::cin;
+﻿#include <iostream>
 
 int main()
 {
     setlocale(LC_ALL, "Russian");
     int sideofthesquare;
-    cout << "Введите длину стороны квадрата:";
-    cin >> sideofthesquare;
-    cout << sideofthesquare * sideofthesquare;
+    std::cout << "Введите длину стороны квадрата:";
+    std::cin >> sideofthesquare;
+    std::cout << sideofthesquare * sideofthesquare;
 }
