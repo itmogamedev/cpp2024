@@ -9,4 +9,4 @@
 2. [МиниДЗ№2](https://docs.google.com/presentation/d/18SFBxaxdisEuhMudIPOm8MLtvXiJ2-O0xs-1SLgHrK4/edit#slide=id.p)
 
 **Основные ДЗ:**
-1. [ДЗ1, Базы Данных](https://docs.google.com/presentation/d/18SFBxaxdisEuhMudIPOm8MLtvXiJ2-O0xs-1SLgHrK4/edit#slide=id.p)
+1. [ДЗ1, Базы Данных](https://docs.google.com/presentation/d/1k8GMO1jgq-M5V9RyUbHU2Qt1E0Y2WmGUzmV6_5t7EFI/edit#slide=id.p)
