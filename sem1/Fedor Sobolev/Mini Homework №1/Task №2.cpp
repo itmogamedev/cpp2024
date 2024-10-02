@@ -1,17 +1,14 @@
-﻿
-#include <iostream>
-using std::cout;
-using std::cin;
+﻿#include <iostream>
 
 int main()
 {
     setlocale(LC_ALL, "Russian");
     int firstbaseofatrapezoid, secondbaseofatrapezoid, heightoftrapezoid;
-    cout << "Введите длину первого основании трапеции:";
-    cin >> firstbaseofatrapezoid;
-    cout << "Введите длину второго основании трапеции:";
-    cin >> secondbaseofatrapezoid;
-    cout << "Введите длину высоты трапеции:";
-    cin >> heightoftrapezoid;
-    cout << (firstbaseofatrapezoid * secondbaseofatrapezoid) / 2 * heightoftrapezoid;
+    std::cout << "Введите длину первого основании трапеции:";
+    std::cin >> firstbaseofatrapezoid;
+    std::cout << "Введите длину второго основании трапеции:";
+    std::cin >> secondbaseofatrapezoid;
+    std::cout << "Введите длину высоты трапеции:";
+    std::cin >> heightoftrapezoid;
+    std::cout << (firstbaseofatrapezoid * secondbaseofatrapezoid) / 2 * heightoftrapezoid;
 }
