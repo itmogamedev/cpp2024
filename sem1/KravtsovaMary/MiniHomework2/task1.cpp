@@ -23,4 +23,25 @@ void trans(int a) {
 		a16 = std::stoi(s16);
 		std::cout << a16;
 	}
+	if (a < 0) {
+		a10 = a * -1;
+		while (a10 > 0) {
+			s8 = std::to_string(a10 % 8) + s8;
+			a10 = a10 / 8;
+		}
+		a8 = std::stoi(s8);
+		std::cout << a8 * -1 << std::endl;
+		a10 = a * -1;
+		while (a10 > 0) {
+			s16 = std::to_string(a10 % 16) + s16;
+			a10 = a10 / 16;
+		}
+		a16 = std::stoi(s16);
+		std::cout << a16 * -1;
+	}
+}
+int main() {
+	int n;
+	std::cin >> n;
+	trans(n);
 }
