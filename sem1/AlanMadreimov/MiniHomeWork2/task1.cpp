@@ -14,11 +14,11 @@ void TnumSys(long n, int base){
 
 
 int main() {
-	setlocale(LC_ALL, "Russian");
 
 	std::string instr,normalstr;
 	int type = 0;
 	bool iscorrect = 1;
+	std::cout << "Enter number: "
 	std::cin >> instr;
 
 	for (int i = 0; i < instr.length(); i++) {
@@ -27,7 +27,7 @@ int main() {
 		}
 		else {
 			if (iscorrect) {
-				std::cout << "Кажется вы имели ввиду такое  число :";
+				std::cout << "I think you meant this number :";
 				iscorrect = 0;
 			}
 		}
@@ -38,10 +38,10 @@ int main() {
 	}
 
 	while (type != 8 and type != 16) {
-		std::cout << "Пожалуйста введите желаему систему исчесления (8 или 16): ";
+		std::cout << "Please enter the desired measurement system (8 or 16): ";
 		std::cin >> type;
 		if (type != 8 and type != 16) {
-			std::cout << "Системы счисления 8 или 16" << std::endl;
+			std::cout << "Number systems 8 or 16!" << std::endl;
 		}
 	}
 

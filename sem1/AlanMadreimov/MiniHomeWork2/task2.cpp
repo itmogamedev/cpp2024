@@ -23,13 +23,12 @@ int SirakuzGip(long n) {
 */
 
 int main() {
-	setlocale(LC_ALL, "Russian");
 
 	std::string instr,digitstr;
 	long n = -1;
 
 	while (n <= 0) {
-		std::cout << "Введите натуральное число: ";
+		std::cout << "Enter a natural number: ";
 		std::cin >> instr;
 
 		for (int i = 0; i < instr.length(); i++) {
@@ -40,7 +39,7 @@ int main() {
 		n = stoi(digitstr);
 		
 		if (n <= 0) {
-			std::cout << "Вы ввели не натуральное число" << std::endl;
+			std::cout << "You entered a non-natural number" << std::endl;
 		}
 
 	}
