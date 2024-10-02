@@ -14,14 +14,12 @@ void Sirakuz(int n) {
 
 int main() {
 
-	setlocale(LC_ALL, "Russian");
-
 	int n;
-	std::cout << "¬ведите число больше нул€): ";
+	std::cout << "Enter a number greater than zero): ";
 	std::cin >> n;
 
 	if (n <= 0) {
-		std::cout << "ѕоросил же, ЅќЋ№Ў≈ Ќ”Ћя!!!";
+		std::cout << "'Greater than zero' means nothing to you??";
 	}
 	else {
 		Sirakuz(n);
