@@ -3,7 +3,6 @@
 
 void TenToHex() {
 	int x;
-	std::cout << "Введите свое число: ";
 	std::cin >> x;
 	std::cout << "0x" << std::hex << x << std::endl;
 
@@ -12,7 +11,6 @@ void TenToHex() {
 
 void TenToOct() {
 	int x;
-	std::cout << "Введите свое число: ";
 	std::cin >> x;
 	std::cout << std::setbase(8) << x << std::endl;
 
@@ -26,30 +24,28 @@ int main() {
 	int choice;
 
 	do {
-		std::cout << "Менюшка" << std::endl;
-		std::cout << "1 - 16-ричная система" << std::endl;
-		std::cout << "2 - 8-ричная система" << std::endl;
-		std::cout << "3 - Выход" << std::endl;
-		std::cout << "Выберете действие: ";
+		std::cout << "Menu" << std::endl;
+		std::cout << "2 - Hex" << std::endl;
+		std::cout << "2 - Oct" << std::endl;
+		std::cout << "3 - Exit" << std::endl;
+		std::cout << "Select an action: ";
 		std::cin >> choice;
 
 		if (choice == 3) {
-			std::cout << "Вы вышли из программы:(";
+			std::cout << ":(";
 			break;
 		}
 
 
 		switch (choice) {
 			case 1:
-				std::cout << "Вы выбрали 16-ричную систему" << std::endl;
 				TenToHex();
 				break;
 			case 2:
-				std::cout << "Вы выбрали 8-ричную систему" << std::endl;
 				TenToOct();
 				break;
 			default:
-				std::cout << "Вы кажется не поняли, у вас всего 3 варианта)" << std::endl;
+				std::cout << "You have only 3 option)" << std::endl;
 		}
 
 	} while (choice != 3);
