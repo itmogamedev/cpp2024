@@ -1,18 +1,15 @@
-﻿
-#include <iostream>
-using std::cout;
-using std::cin;
+﻿#include <iostream>
 
 int main()
 {
     setlocale(LC_ALL, "Russian");
     int firstnumber = 0, secondnumber = 0;
-    cout << "Введите число:";
-    cin >> firstnumber;
+    std::cout << "Введите число:";
+    std::cin >> firstnumber;
     while (firstnumber > 0) {
         secondnumber *= 10;
         secondnumber += firstnumber % 10;
         firstnumber /= 10;
     }
-    cout << secondnumber;
+    std::cout << secondnumber;
 }
