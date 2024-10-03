@@ -1,5 +1,7 @@
 #include <iostream>
-#include <string>
+#include <vector>
+
+int digits[36];
 
 void to_sys(int number, int base)
 {
@@ -11,14 +13,15 @@ void to_sys(int number, int base)
 
 	std::cout << number << " in " << base << " base is ";
 
-	std::string result = "";
+	std::vector<char> result;
 	while (number != 0)
 	{
-		result = std::to_string(number % base) + result;
+		result.push_back(digits[number % base]);
 		number /= base;
 	}
-
-	std::cout << result << std::endl;
+	for (int i = result.size()-1; i >= 0; i--)
+		std::cout << result[i];
+	std::cout << std::endl;
 }
 
 void help()
@@ -31,6 +34,9 @@ void help()
 int main()
 {
 	help();
+
+	for (int i = 0; i < 10; i++) digits[i] = '0' + i;
+	for (int i = 10; i < 36; i++) digits[i] = 'A' - 10 + i;
 
 	char command;
 	int num, base;
