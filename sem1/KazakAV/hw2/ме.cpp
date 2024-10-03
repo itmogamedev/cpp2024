@@ -1,7 +1,7 @@
 #include <iostream>
 int main() {
-	int n = 0;
-	std::cin >> n;
-	std::cout << std::oct << n << std::endl;
-	std::cout << std::hex << n;
+	int number = 0;
+	std::cin >> number;
+	std::cout << std::oct << number << " - octal number notation" << std::endl;
+	std::cout << std::hex << number << " - hexadecimal number notation";
 }
