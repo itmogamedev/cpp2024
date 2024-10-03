@@ -1,17 +1,19 @@
 #include <iostream>
 
-using std::cin;
-using std::cout;
-
-int main() {
+int reverseNumber() {
 	int num, res;
 	res = 0;
-	cout << "Enter a number to reverse: ";
-	cin >> num;
+	std::cout << "Enter a number to reverse:" << std::endl;
+	std::cin >> num;
 	while (num > 0) {
 		res *= 10;
 		res += num % 10;
 		num /= 10;
 	}
-	cout << "Reversed: " << res;
+	std::cout << "Reversed:" << std::endl << res;
+	return 0;
+}
+
+int main() {
+	reverseNumber();
 }

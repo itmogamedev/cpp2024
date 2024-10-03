@@ -1,11 +1,15 @@
 #include <iostream>
 
-using std::cin;
-using std::cout;
+double sqrArea() {
+	double side;
+	double result;
+	std::cout << "Enter side of square length:" << std::endl;
+	std::cin >> side;
+	result = side * side;
+	std::cout << "Area of square:" << std::endl << result << std::endl;
+	return result;
+}
 
-int main(){
-	int side;
-	cout << "Enter side of square length: ";
-	cin >> side;
-	cout << "Area of a square: " << side * side;
+int main() {
+	sqrArea();
 }
