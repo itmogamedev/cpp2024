@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B VS\\task 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{594C61E2-45F9-4BAE-9D2F-6E7D9D3E6234}|task 2\\task 2.vcxproj|D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B VS\\task 2\\task 2\\task 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{594C61E2-45F9-4BAE-9D2F-6E7D9D3E6234}|task 2\\task 2.vcxproj|solutionrelative:task 2\\task 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task 2.cpp",
+              "DocumentMoniker": "D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B VS\\task 2\\task 2\\task 2.cpp",
+              "RelativeDocumentMoniker": "task 2\\task 2.cpp",
+              "ToolTip": "D:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B VS\\task 2\\task 2\\task 2.cpp*",
+              "RelativeToolTip": "task 2\\task 2.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-15T13:04:00.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
