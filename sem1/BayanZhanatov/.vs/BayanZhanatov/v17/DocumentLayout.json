@@ -39,8 +39,7 @@
               "ViewState": "AgIAABMAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T14:55:34.248Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "minihomework1\\task4.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\cpp2024\\sem1\\BayanZhanatov\\minihomework1\\task4.cpp",
               "RelativeToolTip": "minihomework1\\task4.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T15:41:10.875Z",
               "EditorCaption": ""
@@ -63,10 +62,9 @@
               "RelativeDocumentMoniker": "minihomework1\\task3.cpp",
               "ToolTip": "C:\\Users\\Admin\\Documents\\cpp2024\\sem1\\BayanZhanatov\\minihomework1\\task3.cpp",
               "RelativeToolTip": "minihomework1\\task3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T15:23:56.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T15:23:56.954Z"
             },
             {
               "$type": "Document",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "minihomework1\\task1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T14:52:27.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T14:52:27.338Z"
             }
           ]
         }
