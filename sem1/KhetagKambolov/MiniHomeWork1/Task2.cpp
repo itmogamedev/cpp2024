@@ -1,5 +1,4 @@
 ﻿#include <iostream>
-using namespace std;
 
 int Trapezoid(int side1, int side2, int height) 
 {

@@ -1,18 +1,17 @@
 ﻿#include <iostream>
-using namespace std;
 
 int main()
 { 
 	int n, reversed = 0;
-	cout << "Enter the number: ";
-	cin >> n;
+	std::cout << "Enter the number: ";
+	std::cin >> n;
 	while (n != 0) {
 		int remain = n % 10;
-		if (remain == 0) cout << 0;
+		if (remain == 0) std::cout << 0;
 		reversed = reversed * 10 + remain;
 		n /= 10;
 	}
-	cout << reversed;
+	std::cout << reversed;
 }
 
 

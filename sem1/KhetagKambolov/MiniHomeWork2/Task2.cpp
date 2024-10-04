@@ -1,21 +1,20 @@
 ﻿#include <iostream>
-using namespace std;
 
 static void Siracus(int num) {
 	int temp = num;
-	cout << temp;
+	std::cout << temp;
 	while (temp != 1) {
 		if (temp % 2 == 0) temp /= 2;
 		else temp = (temp * 3 + 1) / 2;
-		cout << " -> " << temp;
+		std::cout << " -> " << temp;
 	}
 }
 
 int main()
 { 
 	int num;
-	cout << "Enter your number: ";
-	cin >> num;
+	std::cout << "Enter your number: ";
+	std::cin >> num;
 	Siracus(num);
 }
 
