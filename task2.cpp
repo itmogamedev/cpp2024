@@ -1,24 +1,24 @@
 #include <iostream>
-//задание 2
+//task 2
 int main() {
 	setlocale(LC_ALL, "RU");
-	std::cout << "¬ведите натуральное число:" << "\n";
+	std::cout << "input an natural number:" << "\n";
 	int number;
 	std::cin >> number;
 	while (number != 1) {
-		std::cout << "¬аше число:" <<number<< "\n";
+		std::cout << "Your number:" <<number<< "\n";
 		if (number % 2 == 0) {
-			std::cout << "оно чЄтно" << "\n";
+			std::cout << "is even" << "\n";
 			number /= 2;
-			std::cout << "новое число:" << number << "\n";
+			std::cout << "new number:" << number << "\n";
 		}
 		else {
-			std::cout << "оно нечЄтно" << "\n";
+			std::cout << "is odd" << "\n";
 			number = (number * 3 + 1) / 2;
-			std::cout << "новое число:" << number << "\n";
+			std::cout << "new number:" << number << "\n";
 
 		}
 	}
-	std::cout << "еденица получена, гипотеза доказана"<<"\n";
+	std::cout << "an 1 achived. hypothesis proved."<<"\n";
 	return 0;
 }
