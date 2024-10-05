@@ -1,6 +1,7 @@
 #include <iostream>
 
 bool hypotesisChecker(int value) {
+	setlocale(LC_ALL, "Russian");
 	int number = value;
 	while (number > 1) {
 		if (number % 2 == 0) {

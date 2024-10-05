@@ -37,6 +37,8 @@ char* to_base_n(int chosenNumber, int base) {
 
 
 void menu() {
+    setlocale(LC_ALL, "Russian");
+
     bool isWorking = true;
     while (isWorking) {
         int chosenOption;
@@ -88,7 +90,7 @@ void menu() {
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    
 
     menu();
 }
