@@ -1,11 +1,13 @@
 #include <iostream>
 #include <string>
+#include <Windows.h>
 
+HANDLE hConsole{GetStdHandle(STD_OUTPUT_HANDLE)};
 
-int setUserSelection() {
+int setChoiceMenuion() {
 	std::cout << "Введите выбор операции:\n" << "1 -- Перевод в восьмиричную систему\n"
 		<< "2 -- Перевод в шестнадцатиричную систему\n" << "3 -- Выход из программы\n"
-		<< "Ваш выбор : ";
+		<< "Ваш выбор: ";
 	int choiceMenu{};
 	std::cin >> choiceMenu;
 
@@ -14,7 +16,7 @@ int setUserSelection() {
 
 
 int setUserDecimalNum() {
-	std::cout << "Введите десятичное натуральное число, которое хотите перевести в 8-чную или 16-чную системы: ";
+	std::cout << "Введите десятичное число > 0, которое хотите перевести в 8-чную или 16-чную системы: ";
 	int userDecimalNum{};
 	std::cin >> userDecimalNum;
 
@@ -49,9 +51,10 @@ std::string decimalToHex(int userDecimalNum) {
 
 std::string startProgramm() {
 	int userDecimalNum{};
+	
 
 	while (true) {
-		int choiceMenu{ setUserSelection() };
+		int choiceMenu{ setChoiceMenuion() };
 
 		switch (choiceMenu)
 		{
@@ -59,11 +62,15 @@ std::string startProgramm() {
 				userDecimalNum = setUserDecimalNum();
 
 				if (userDecimalNum < 0) {
-					std::cout << "Вы ввели не натуральное число, постарайтесь ещё!\n";
+					std::cout << "-------------------------------------------------------------------\n";
+					SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
+					std::cout << "Вы ввели не число < 0, постарайтесь ещё!\n\n";
+					SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 					break;
 				}
-
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
 				std::cout << "\nРезультат перевода: ";
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 
 				return decimalToOct(userDecimalNum);
 				break;
@@ -72,23 +79,28 @@ std::string startProgramm() {
 				userDecimalNum = setUserDecimalNum();
 
 				if (userDecimalNum < 0) {
-					std::cout << "-------------------------------------------------------------------\n" 
-						<< "Вы ввели не натуральное число, постарайтесь ещё!\n\n";
+					std::cout << "-------------------------------------------------------------------\n";
+					SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
+					std::cout << "Вы ввели не число < 0, постарайтесь ещё!\n\n";
+					SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 					break;
 				}
-
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
 				std::cout << "\nРезультат перевода: ";
-
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 				return decimalToHex(userDecimalNum);
 				break;
 
 			case 3:
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN);
 				return "Вы решили выйти из программы, всего хорошего!";
 				break;
 
 			default:
-				std::cout << "-------------------------------------------------------------------\n"
-					<< "Неверный выбор операции, введите число, соответсвующее числу операции!\n\n";
+				std::cout << "-------------------------------------------------------------------\n";
+				SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
+				std::cout << "Неверный выбор операции, введите число, соответсвующее числу операции!\n\n";
+				SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 		}
 	}
 }
@@ -98,4 +110,5 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	std::cout << startProgramm();
+	SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED);
 }
