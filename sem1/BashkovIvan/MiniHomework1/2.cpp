@@ -1,6 +1,6 @@
 #include <iostream>
 
-void TrapezoidArea1() {
+void trapezoidArea1() {
     float base1, base2, height;
     std::cout << "Please, enter the first base:" << std::endl;
     std::cin >> base1;
@@ -11,7 +11,7 @@ void TrapezoidArea1() {
     std::cout << "The area of the trapezoid: " << height * (base1 + base2) * 0.5;
 }
 
-void TrapezoidArea2() {
+void trapezoidArea2() {
     float midline, height;
     std::cout << "Please, enter the midline:" << std::endl;
     std::cin >> midline;
@@ -20,7 +20,7 @@ void TrapezoidArea2() {
     std::cout << "The area of the trapezoid: " << midline * height;
 }
 
-void TrapezoidArea3() {
+void trapezoidArea3() {
     float diagonal1, diagonal2, sine;
     std::cout << "Please, enter the first diagonal:" << std::endl;
     std::cin >> diagonal1;
@@ -38,13 +38,13 @@ int main() {
     std::cout << "If you want to find the area of the trapezoid using two diagonals and the angle between them, please, enter 3" << std::endl;
     std::cin >> choice;
     if (choice == 1) {
-        TrapezoidArea1();
+        trapezoidArea1();
     }
     else if (choice == 2) {
-        TrapezoidArea2();
+        trapezoidArea2();
     }
     else if (choice == 3) {
-        TrapezoidArea3();
+        trapezoidArea3();
     }
     else {
         std::cout << "You must have made a mistake. Please, rerun the program.";
