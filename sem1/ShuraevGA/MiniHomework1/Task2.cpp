@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+
 float trapezoid(int TopSide, int DownSide, int H ) {
     return (TopSide + DownSide) * H/2;
 }

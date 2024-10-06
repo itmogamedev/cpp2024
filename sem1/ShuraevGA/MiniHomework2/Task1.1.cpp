@@ -1,6 +1,5 @@
 ﻿#include<iostream>
 
-
 int OldNum;
 int NewNumReverse = 0;
 int NewNum = 0;

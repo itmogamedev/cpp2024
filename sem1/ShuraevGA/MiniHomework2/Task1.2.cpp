@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+ 
 
 std::string NewNum("");
 int OldNum = 0;

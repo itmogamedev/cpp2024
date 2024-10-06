@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+
 int square(int lenght) {
     return lenght * lenght;
 }
