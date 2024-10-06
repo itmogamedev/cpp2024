@@ -8,7 +8,7 @@ bool check_syracuse_sequence(const int n) {
     int number = n;
 
     while (number > 1) {
-        number = number % 2 == 0 ? number / 2 : number * 3 + 1;
+        number = number % 2 == 0 ? number / 2 : (number * 3 + 1) / 2;
     }
 
     if (number == 1) {
