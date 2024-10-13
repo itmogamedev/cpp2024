@@ -3,7 +3,7 @@
 #include <fstream>
 #include <algorithm>
 #include <map>
-// очень большая домашка прям жесть капецблин страшно увага опасность
+// very super duper scary big hw
  class student{
  public:
 	std::string name, surname, patronymic, speciality, id, score;
@@ -18,9 +18,9 @@
 	 };
 
 };
- //функция проверки критерия
+ //func to check if the student fits criterias
 	 bool isRight(std::string toSplit, std::string criteria) {
-		 int prev = 0;// вспомогательная чтоб вести отсчёт слов
+		 int prev = 0;// this helps to count words
 		 for (int i = 0; i < toSplit.length(); i++) {
 			 if (toSplit[i] == ' ') {
 				 if (toSplit.substr(prev, i - prev) == criteria) {
@@ -39,7 +39,7 @@
 		 }
 
 	 }
-//функция количества слов в строке
+//func to count words in the string
 	 int countWords(std::string ToCount) {
 		 int counter = 0;
 		 for (int i = 0; i < ToCount.length(); i++) {
@@ -66,7 +66,7 @@
 				 return;
 			 }
 			 std::string line;
-			 //проверяем нет ли совпадающего id
+			 //checking if there's the same id
 			 std::ifstream in("database.txt");
 			 if (in.is_open())
 			 {
@@ -182,17 +182,16 @@
 			 if (criteria == "quit") {
 				 return;
 			 }
-			 if (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {// если больше 6 характ. или введены одни пробелы
+			 if (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {// checking if the criteria written correctly
 				 while (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {
 					 std::cout << "invalid input, try again or input 'quit' to stop the search" << '\n';
-					 // почему то здесь cin ignore  не нужен
 					 getline(std::cin, criteria);
 					 if (criteria == "quit") {
 						 return;
 					 }
 				 }
 			 }
-			 int prev = 0;//ну да третий раз тот же код, ну не хочет c++ массив символов через функцию возвращать
+			 int prev = 0;//well i've tried to make a function to split a string to an array but c++ refuses to return an array of strings
 			 int ind = 0;
 			 std::string criteriaList[6] = { " " ," " ," " ," " ," " ," " };
 			 for (int i = 0; i < criteria.length(); i++) {
@@ -206,16 +205,13 @@
 			 std::ifstream in("database.txt");
 			 if (in.is_open()) {
 				 std::cout << "results:" << '\n';
-				 bool flagtoNothing = 1;//на случай если ничего не найдётся
-				 bool flagtoEverything = 1;// проверка на совпадение всех параметров
+				 bool flagtoNothing = 1;//in case nothing fits criteria
+				 bool flagtoEverything = 1;// to check if student fits all the criteria
 				 std::string line;
 				 while (std::getline(in, line)) {
 					 for (int i = 0; i < 6; i++) {
 						 bool a = criteriaList[i] != " ";
-						 if (i == 0)
-							 //std::cout << "in cycle i=" << isRight(line, criteriaList[i]) << a << criteriaList[i]<< '\n';
-							 if (not(isRight(line, criteriaList[i])) and criteriaList[i] != " ") {// проверяем что подходит под параметр и не является " "
-								 flagtoEverything = 0;
+							 if (not(isRight(line, criteriaList[i])) and criteriaList[i] != " ") {//checking if a student fits criteria
 								 break;
 							 }
 					 }
@@ -244,10 +240,7 @@
 				     << '\n'<<"P.S. you can always type 'quit' to stop current process(typing 'quit' now will close the programm)" << '\n';
 				 std::string useroption;
 				 getline(std::cin,useroption);
-				 //std::cin.clear();
-				 //std::cin.ignore();
-				 //std::cin.sync();
-				 if (useroption=="add student" or useroption=="add") {//(чёртов switch не ест string, костыли наше всё)
+				 if (useroption=="add student" or useroption=="add") {//damn switch doesn't work with strings so yeah
 					 db.add();
 				 }
 				 else if (useroption=="delete student" or useroption=="delete"){
