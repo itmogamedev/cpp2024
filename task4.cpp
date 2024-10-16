@@ -18,9 +18,9 @@
 	 };
 
 };
- //func to check if the student fits criterias
+ //func to check criteria
 	 bool isRight(std::string toSplit, std::string criteria) {
-		 int prev = 0;// this helps to count words
+		 int prev = 0;// вспомогательная чтоб вести отсчёт слов
 		 for (int i = 0; i < toSplit.length(); i++) {
 			 if (toSplit[i] == ' ') {
 				 if (toSplit.substr(prev, i - prev) == criteria) {
@@ -39,7 +39,7 @@
 		 }
 
 	 }
-//func to count words in the string
+//func to count words
 	 int countWords(std::string ToCount) {
 		 int counter = 0;
 		 for (int i = 0; i < ToCount.length(); i++) {
@@ -56,7 +56,6 @@
 
 	 public:
 		 void add() {
-			 std::cin.ignore();
 			 std::string name, surname, patronymic, speciality, id, score;
 			 std::cout << "you've desided to add a student to a database, if you don't want anymore type 'quit' whenever possible" << '\n';
 			 std::cout << "input new student id:" << '\n';
@@ -66,7 +65,7 @@
 				 return;
 			 }
 			 std::string line;
-			 //checking if there's the same id
+			 //cheking for same id
 			 std::ifstream in("database.txt");
 			 if (in.is_open())
 			 {
@@ -127,6 +126,7 @@
 		 void allInfo() {
 			 std::string line;
 			 std::ifstream in("database.txt");
+			 std::cout << "here's the whole database:" << '\n';
 			 if (in.is_open())
 			 {
 				 while (std::getline(in, line))
@@ -182,7 +182,7 @@
 			 if (criteria == "quit") {
 				 return;
 			 }
-			 if (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {// checking if the criteria written correctly
+			 if (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {// if there is more than 6 criterias or the whole line is spaces
 				 while (countWords(criteria) > 6 or (countWords(criteria)-1) == criteria.length()) {
 					 std::cout << "invalid input, try again or input 'quit' to stop the search" << '\n';
 					 getline(std::cin, criteria);
@@ -191,7 +191,7 @@
 					 }
 				 }
 			 }
-			 int prev = 0;//well i've tried to make a function to split a string to an array but c++ refuses to return an array of strings
+			 int prev = 0;//well yeah the same code for the third time, c++ refuses to return the array of strings
 			 int ind = 0;
 			 std::string criteriaList[6] = { " " ," " ," " ," " ," " ," " };
 			 for (int i = 0; i < criteria.length(); i++) {
@@ -205,15 +205,17 @@
 			 std::ifstream in("database.txt");
 			 if (in.is_open()) {
 				 std::cout << "results:" << '\n';
-				 bool flagtoNothing = 1;//in case nothing fits criteria
-				 bool flagtoEverything = 1;// to check if student fits all the criteria
+				 bool flagtoNothing = 1;//in case no one fits
+				 bool flagtoEverything = 1;// to check that student fits all the criterias given
 				 std::string line;
 				 while (std::getline(in, line)) {
+					 bool flagtoEverything = 1;
 					 for (int i = 0; i < 6; i++) {
 						 bool a = criteriaList[i] != " ";
-							 if (not(isRight(line, criteriaList[i])) and criteriaList[i] != " ") {//checking if a student fits criteria
+						 if (not(isRight(line, criteriaList[i])) and criteriaList[i] != " ") {// checking for criteria to fit
+								 flagtoEverything = 0;
 								 break;
-							 }
+						 }
 					 }
 					 if (flagtoEverything) {
 						 std::cout << line << '\n';
@@ -222,10 +224,8 @@
 				 }
 				 if (flagtoNothing) {
 					 std::cout << "None" << '\n';
-
 				 };
-			 };
-			 in.close();
+			 }; in.close();
 		 };
 	 };
 		 int main() {
@@ -240,11 +240,13 @@
 				     << '\n'<<"P.S. you can always type 'quit' to stop current process(typing 'quit' now will close the programm)" << '\n';
 				 std::string useroption;
 				 getline(std::cin,useroption);
-				 if (useroption=="add student" or useroption=="add") {//damn switch doesn't work with strings so yeah
+				 if (useroption=="add student" or useroption=="add"){//switch case doesnt work with the string
 					 db.add();
+					 std::cin.ignore();
 				 }
 				 else if (useroption=="delete student" or useroption=="delete"){
 					 db.deleteStudent();
+					 std::cin.ignore();
 				 }
 				 else if (useroption=="find student" or useroption=="find"){
 					 db.search();
@@ -261,4 +263,3 @@
 				 };
 			 return 0;
 		 };
-			 
