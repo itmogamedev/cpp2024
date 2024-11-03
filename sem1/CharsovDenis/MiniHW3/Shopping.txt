@@ -1,0 +1,23 @@
+Shop Ashan
+Items 5
+Milk 89.9 0.95
+Egg 10 0.3
+Juice 120 0.9
+Swits 345.45 0.99
+Meat 945.5 2.15
+Shop DNS
+Items 5
+Iphone14 114999.99 0.229
+Xiaomi110 1 0.01
+RyzenFufX11GGz 9999.9 0.333
+Sony10 5000500.01 5.5
+HuaweiP40 40000.93 0.3
+Shop Baltika
+Items 7
+Baltika0Non-alcoholic 90 0.5
+Baltika3Classic 85 0.5
+Baltika5Gold 90.31 0.45
+Baltika6Porter 75.09 0.33
+Baltika7Export 130.45 0.99
+Baltika8Wheat 89 0.5
+Baltika9Strong 150.55 1 
