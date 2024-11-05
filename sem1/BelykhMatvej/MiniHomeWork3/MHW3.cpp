@@ -1,8 +1,25 @@
 ﻿#include <iostream>
 #include <fstream>
-#include <string>
 #include <vector>
+#include <string>
 #include <sstream>
+#include <memory>
+#include <map>
+#include <Windows.h>
+
+class Color {
+public:
+    explicit Color(int colorCode) : colorCode(colorCode) {}
+
+    friend std::ostream& operator<<(std::ostream& os, const Color& color) {
+        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+        SetConsoleTextAttribute(hConsole, color.colorCode);
+        return os;
+    }
+
+private:
+    int colorCode;
+};
 
 class Item {
 public:
@@ -15,96 +32,109 @@ public:
 };
 
 class ShopBase {
+public:
+    virtual float AvePrice() const = 0;
+    virtual float AveWeight() const = 0;
+};
+
+class CustomShop : public ShopBase {
 protected:
-    std::string name;
     std::vector<Item> items;
 
 public:
-    ShopBase(const std::string& name) : name(name) {}
-    virtual ~ShopBase() = default;
-
     void addItem(const Item& item) {
         items.push_back(item);
     }
 
-    virtual float getAveragePrice() const = 0;
-    virtual float getAverageWeight() const = 0;
+    float AvePrice() const override {
+        float total = 0;
+        for (size_t i = 0; i < items.size(); ++i) {
+            total += items[i].price;
+        }
+        return total / items.size();
+    }
 
-    void displayAverages() const {
-        std::cout << "Shop: " << name << std::endl;
-        std::cout << "Average Price: " << getAveragePrice() << std::endl;
-        std::cout << "Average Weight: " << getAverageWeight() << std::endl;
+    float AveWeight() const override {
+        float total = 0;
+        for (size_t i = 0; i < items.size(); ++i) {
+            total += items[i].weight;
+        }
+        return total / items.size();
     }
 };
 
-class CustomShop : public ShopBase {
+class ITMOMerch : public CustomShop {
 public:
-    CustomShop(const std::string& name) : ShopBase(name) {}
-
-    float getAveragePrice() const override {
-        float totalPrice = 0;
-        for (const auto& item : items) {
-            totalPrice += item.price;
-        }
-        return totalPrice / items.size();
-    }
-
-    float getAverageWeight() const override {
-        float totalWeight = 0;
-        for (const auto& item : items) {
-            totalWeight += item.weight;
-        }
-        return totalWeight / items.size();
-    }
+    std::string shopType = "Merchandise";
 };
 
-void ParsedFile(std::vector<ShopBase*>& shops) {
+class ITMOTableGames : public CustomShop {
+public:
+    std::string gameCategory = "Board Games";
+};
+
+class GraphicsCards : public CustomShop {
+public:
+    std::string graphicsType = "Graphics Processing Units";
+};
+
+std::map<std::string, std::unique_ptr<CustomShop>> Parser() {
     std::ifstream file("shops.txt");
-    std::string line, word;
-    CustomShop* currentShop = nullptr;
+    std::string line;
+    std::map<std::string, std::unique_ptr<CustomShop>> shops;
+
+    std::unique_ptr<CustomShop> currentShop = nullptr;
+    std::string shopName;
 
     while (std::getline(file, line)) {
-        std::istringstream load(line);
-        load >> word;
+        std::istringstream iss(line);
+        std::string word;
+        iss >> word;
 
         if (word == "Shop") {
-            if (currentShop) {
-                shops.push_back(currentShop); 
+            if (currentShop != nullptr) {
+                shops[shopName] = std::move(currentShop);
             }
+            iss >> shopName;
 
-            std::string shopName;
-            load >> shopName;
-            currentShop = new CustomShop(shopName); 
+            if (shopName == "ITMOMerch") {
+                currentShop = std::make_unique<ITMOMerch>();
+            }
+            else if (shopName == "ITMOTableGames") {
+                currentShop = std::make_unique<ITMOTableGames>();
+            }
+            else if (shopName == "GraphicsCards") {
+                currentShop = std::make_unique<GraphicsCards>();
+            }
         }
-        else if (word == "Items" && currentShop) {
-            int itemCount;
-            load >> itemCount;
-
-            for (int i = 0; i < itemCount; ++i) {
-                std::getline(file, line);
-                std::istringstream itemLoad(line);
-                std::string itemName;
-                float price, weight;
-
-                itemLoad >> itemName >> price >> weight;
-                currentShop->addItem(Item(itemName, price, weight));
-            }
+        else if (word == "Items") {
+            continue;
+        }
+        else if (currentShop != nullptr) {
+            std::string name = word;
+            float price, weight;
+            iss >> price >> weight;
+            std::string additionalInfo;
+            std::getline(iss, additionalInfo);
+            currentShop->addItem(Item(name, price, weight));
         }
     }
 
-    if (currentShop) {
-        shops.push_back(currentShop);
+    if (currentShop != nullptr) {
+        shops[shopName] = std::move(currentShop);
     }
 
-    file.close();
+    return shops;
 }
 
 int main() {
-    std::vector<ShopBase*> shops;
-    ParsedFile(shops);
+    std::map<std::string, std::unique_ptr<CustomShop>> shops = Parser();
 
-    for (const auto& shop : shops) {
-        shop->displayAverages();
-        std::cout << std::endl;
+    for (std::map<std::string, std::unique_ptr<CustomShop>>::iterator i = shops.begin(); i != shops.end(); ++i) {
+        std::cout << Color(2) << "Shop: " << i->first << std::endl;
+        std::cout << Color(7) << "Average Price: " << i->second->AvePrice() << std::endl;
+        std::cout << "Average Weight: " << i->second->AveWeight() << std::endl;
     }
+
+    return 0;
 }
