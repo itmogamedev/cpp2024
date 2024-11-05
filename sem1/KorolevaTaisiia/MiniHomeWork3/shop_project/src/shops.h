@@ -27,6 +27,9 @@ protected:
     std::vector<product *> pointers;
 public:
     shop_base() = delete;
+
+    virtual ~shop_base() = default;
+
     explicit shop_base(std::string name) : name(std::move(name)) {}
 
     virtual std::string present_itself() = 0;
@@ -55,7 +58,8 @@ public:
 
 class basic_shop : public shop_base<product> {
 public:
-    basic_shop (std::string name): shop_base<product>(std::move(name)){};
+    basic_shop(std::string name) : shop_base<product>(std::move(name)) {};
+
     static std::string class_name() {
         return "basic_shop";
     }
@@ -74,7 +78,8 @@ public:
 
 class shop_with_sales : public shop_base<sales_product> {
 public:
-    shop_with_sales (std::string name): shop_base<sales_product>(std::move(name)){};
+    shop_with_sales(std::string name) : shop_base<sales_product>(std::move(name)) {};
+
     static std::string class_name() {
         return "shop_with_sales";
     }
@@ -94,7 +99,13 @@ public:
 
 class heavy_package_shop : shop_base<heavy_package_product> {
 public:
-    heavy_package_shop (std::string name): shop_base<heavy_package_product>(std::move(name)){};
+    heavy_package_shop(std::string name) : shop_base<heavy_package_product>(std::move(name)) {};
+
+    static heavy_package_shop parse_shop(std::string shop_description) {
+
+
+    }
+
     static std::string class_name() {
         return "shop_with_packages";
     }
