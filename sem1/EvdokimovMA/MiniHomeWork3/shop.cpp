@@ -57,7 +57,7 @@ public:
     std::string getAddress() {
         return address;
     }
-    std::vector<Item*>& getItems() {
+    const std::vector<Item*>& getItems() const {
         return items;
     }
 };
