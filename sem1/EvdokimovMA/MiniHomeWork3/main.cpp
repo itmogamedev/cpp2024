@@ -66,9 +66,10 @@ void compute_shop_stats(const Shop& shop, double& avg_price, double& avg_mass) {
 }
 
 int main() {
-    std::ifstream file("D:/Projects/CPP/itmo_cpp_0/sem1/EvdokimovMA/MiniHomeWork3/SampleData/combined-data.txt");
+    std::ifstream file("SampleData/combined-data.txt");
     if (!file.is_open()) {
         std::cerr << "Failed to open file" << std::endl;
+        wait_for_enter();
         return 1;
     }
 
