@@ -1,21 +1,20 @@
 #include <iostream>
 #include <fstream>
 #include "src/shops.h"
-#include "StringUtils.h"
+#include "src/StringUtils.h"
 
-void get_middle(std::string basicString, std::ostream &ostream, std::istream &istream,
-                std::vector<shop_base<product> *> vector1);
+void get_middle(std::string file_name, std::ostream &ostream, std::istream &istream,
+                std::vector<shop_base<product> *> cache);
 
-void add_product(std::string basicString, std::ostream &ostream, std::istream &istream,
-                 std::vector<shop_base<product> *> vector1);
+void add_product(std::string file_name, std::ostream &ostream, std::istream &istream,
+                 std::vector<shop_base<product> *> cache);
 
 void add_shop(std::string &database_path, std::ostream &os, std::istream &is) {
-    int choice = 0;
     os << "Welcome to shop creator!\n"
           "1. Press 1 to create basic shop\n"
           "2. Press 2 to create shop with sales\n"
           "3. Press 3 to create shop with heavy packaging\n"
-          "4. Press anything else to exit\n";
+          "4. Send anything else to exit\n";
     std::string x, name;
     std::getline(is, x);
     if (x != "1" && x != "2" && x != "3") {
@@ -88,14 +87,15 @@ void menu(std::string database_path, std::ostream &os, std::istream &is) {
     std::vector<shop_base<product> *> cache;
     //cache_data(database_path, cache);
     while (true) {
-        std::cout << "Welcome to the simple database!\n"
+        std::cout << "Welcome to the simple shop database!\n"
                      "1. Press 1 to add new shops\n"
                      "2. Press 2 to get your current data presented\n"
                      "3. Press 3 to get middle cost/weight in shop\n"
                      "4. Press 4 to add new products\n";
         std::string x;
-        is >> x;
-        //std::getline(is, x);
+        //is >> x;
+        std::getline(is, x);
+        trim(x);
         if (x == "1") {
             add_shop(database_path, os, is);
         } else if (x == "2") {
@@ -113,7 +113,31 @@ void menu(std::string database_path, std::ostream &os, std::istream &is) {
 void add_product(std::string file_name, std::ostream &ostream, std::istream &istream,
                  std::vector<shop_base<product> *> cache) {
     cache_data(file_name, cache);
-
+    int i = -2;
+    while (true) {
+        ostream << "Enter number of your shop of interest, or 0 to exit this menu \n";
+        std::string output;
+        std::getline(istream, output);
+        trim(output);
+        if (!output.empty()) {
+            i = std::stoi(output);
+            i--;
+            if (i == -1) {
+                break;
+            }
+            shop_base<product> *shop = cache[i];
+            ostream << "Enter your product in format of: " + shop->ask_for_product() + '\n';
+            std::string product;
+            std::getline(istream, product);
+            shop->parse_new_product(product);
+        }
+    }
+    std::ofstream out;          // поток для записи
+    out.open(file_name);
+    for (auto k: cache) {
+        out << k->present_itself();
+    }
+    out.close();
 
 }
 
@@ -122,7 +146,9 @@ void get_middle(std::string file_name, std::ostream &ostream, std::istream &istr
     cache_data(file_name, cache);
     ostream << "Enter number of your shop of interest\n";
     int i;
-    istream >> i;
+    std::string input;
+    std::getline(istream, input);
+    i = std::stoi(input);
     i--;
     auto shop = cache[i];
     ostream << shop->present_itself();
