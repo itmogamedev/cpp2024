@@ -1,0 +1,23 @@
+Shop ForPCs
+Items 5
+NVIDIA10090 100000 1000 FPS 1
+NVIDIA9090 99999 999 FPS 2
+IntelCoreI99 50000 1 CPU 550
+AMDThreadripper 7 3 CPU 770
+ASUSROGMonitor 333 10 Monitor 333
+
+Shop Fruits
+Items 5
+Banana 1 1 Vitamins Ka Ca
+Apple 2 1 Vitamins A C
+Orange 1.5 1 Vitamins C
+Grapes 2.5 0.5 Vitamins A C E
+Pineapple 3 2 Vitamins B C
+
+Shop Books
+Items 5
+CrimeaAndPunishment 15 0.5 Literature Classic
+WarAndPeace 20 1 Literature Classic
+MobyDick 10 1 Literature Adventure
+CatchMeIfYouCan 12 0.8 Literature Classic
+HarryPotter 25 1.2 Fantasy Adventure
