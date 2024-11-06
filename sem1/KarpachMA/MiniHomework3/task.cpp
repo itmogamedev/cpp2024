@@ -89,6 +89,8 @@ void Shop::FindMiddlePriceAndWeight(){
         shopMiddlePrice += item.GetPrice();
         shopMiddleWeight += item.GetWeight();
     }
+    shopMiddlePrice = shopMiddlePrice / itemsCount;
+    shopMiddleWeight = shopMiddleWeight / itemsCount;
     std::cout << "Средняя цена в магазине " << GetName() << " " <<  shopMiddlePrice  << std::endl;
     std::cout << "Средний вес в магазине " << GetName() << " " <<  shopMiddleWeight  << std::endl;
 }
