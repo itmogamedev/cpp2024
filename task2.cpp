@@ -5,13 +5,6 @@
 #include <chrono>
 #include <thread>
 //task 2
-void print(std::vector<int> todayslist) {
-	std::cout << "[";
-	for (int i = 0; i < todayslist.size(); i++) {
-		std::cout << todayslist[i] << " ";
-	}
-	std::cout << "]"<<'\n';
-}
 int randint(int start, int fin) {
 	return (rand() % (fin+1 - start)) + start;
 }
@@ -30,7 +23,7 @@ int answerToInt(char answer) {
 class client {
 public:
 	std::vector<int> products;
-	bool right;
+	bool right=1;
 	client* next;
 	client* prev;
 	client(int prodAmount, std::vector<int> todayslist) {
@@ -44,9 +37,6 @@ public:
 			if (std::find(todayslist.begin(), todayslist.end(), products[i]) == todayslist.end()) {
 				right = 0;
 			}
-		}
-		if (right != 0) {
-			right = 1;
 		}
 		next = nullptr;
 		prev = nullptr;
@@ -104,9 +94,9 @@ public:
 
 		todaysliststr = todaysliststr + '\n' + '\n';
 		//asssembling a doubly linked list
-		client* clientZero = new client(randint(0, 14),todayslist);
+		client* clientZero = new client(randint(1, 15),todayslist);
 		for (int i = 1; i < clientAmount; i++) {
-			add(clientZero, randint(0, 14),todayslist);
+			add(clientZero, randint(1, 15),todayslist);
 		}
 		client* current = clientZero;
 		std::cout << "are you ready to start?(input y/n)" << '\n';
@@ -170,18 +160,20 @@ public:
 					std::cout << "This one is wrong! but you still won! " << '\n';
 				}
 				else{
+					checkoutAmount--;
 					std::cout << "Wrong!("<<checkoutAmount<<" checkouts left) next one : " << '\n';
 					std::this_thread::sleep_for(std::chrono::seconds(2));
-					checkoutAmount--;
+					
 				}
 			}else {
 				if (i == clientAmount - 1) {
 					std::cout << "Times up! but you still won!" << '\n';
 				}
 				else{
+				checkoutAmount--;
 				std::cout << "Times up!(" << checkoutAmount << " checkouts left) next one:" << '\n';
 				std::this_thread::sleep_for(std::chrono::seconds(2));
-				checkoutAmount--;
+
 				}
 			}
 			current = current->next;
@@ -203,7 +195,6 @@ int inputHandler() {
 
 	try {
 		std::cin >> varToHandle;
-		std::cout << "var:" << varToHandle << '\n';
 		
 		if (std::cin.fail()) {
 			std::cin.clear();
@@ -225,8 +216,10 @@ int main() {
 	int checkoutAmount=0;
 	std::cout << "please input an amount of clients, any non integer value will be interpritated as a random number" << '\n';
 	clientAmount=inputHandler();
+	std::cout << "your amount of clients is:" << clientAmount<<'\n';
 	std::cout << "now the amount of checkouts:" << '\n';
 	checkoutAmount = inputHandler();
+	std::cout << "your amount of checkouots is:" << checkoutAmount << '\n';
 	game game(clientAmount, checkoutAmount);
 	return 0;
 }
