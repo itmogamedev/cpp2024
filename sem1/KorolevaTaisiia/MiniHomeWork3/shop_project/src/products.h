@@ -28,7 +28,8 @@ class sales_product : public product {
 private:
     float sale;
 public:
-    sales_product(std::string name, float cost, float weight, float sale) : product(std::move(name), cost, weight), sale(sale) {
+    sales_product(std::string name, float cost, float weight, float sale) : product(std::move(name), cost, weight),
+                                                                            sale(sale) {
     }
 
     float get_cost() const override {
@@ -36,9 +37,8 @@ public:
     }
 
     std::string present_itself() const override {
-        return name + " Cost: " + std::to_string(get_true_cost()) + " Sale:" +
-               std::to_string(get_sale())
-               + " Weight:" + std::to_string(get_weight());
+        return name + " " + std::to_string(get_true_cost())
+               + " " + std::to_string(get_weight()) + " " + std::to_string(get_sale());
     }
 
     float get_sale() const {
@@ -66,9 +66,9 @@ public:
     }
 
     std::string present_itself() const override {
-        return name + " Cost: " + std::to_string(get_cost()) +
-               +" Weight:" + std::to_string(get_weight() - get_package_weight())
-               + " P.Weight: " + std::to_string(get_package_weight());
+        return name + " " + std::to_string(get_cost()) +
+               +" " + std::to_string(get_weight() - get_package_weight())
+               + " " + std::to_string(get_package_weight());
     }
 
 
