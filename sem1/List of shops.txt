@@ -1,0 +1,24 @@
+Shop Ostin
+Items 5
+T-short 700 50 cotton 
+sweater 1200 150 wool 
+jacket 1500 100 denim 
+skirt 500 70 leather 
+shirt 600 60 cotton
+Shop Gorzdrav
+Items 5
+coldrex 800 40 internal
+bandage 120 30 external
+thermometer 150 20 internal
+noshpa 750 60 external
+ingavirin 830 80 external
+Shop Leonardo
+Items 6
+pencil 50 15 green
+pen 60 20 blue
+notebook 350 200 pink
+artbook 1300 600 orange
+sketchbook 450 320 gray
+erase 50 10 white
+
+
