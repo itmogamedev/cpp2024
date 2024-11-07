@@ -3,13 +3,11 @@
 #include <sstream>
 #include <vector>
 
-using namespace std;
-
-string path = "Shops.txt";
+std::string path = "Shops.txt";
 
 class Item {
 	public:
-		string name;
+		std::string name;
 		double price;
 		double weight;
 
@@ -19,7 +17,7 @@ class Item {
 			weight = 0;
 		}
 
-		Item(string name, double price, double weight) {
+		Item(std::string name, double price, double weight) {
 			this->name = name;
 			this->price = price;
 			this->weight = weight;
@@ -34,7 +32,7 @@ class Knife : public Item {
 			length = 0;
 		}
 
-		Knife(string name, double price, double weight, double length) {
+		Knife(std::string name, double price, double weight, double length) {
 			this->name = name;
 			this->price = price;
 			this->weight = weight;
@@ -44,13 +42,13 @@ class Knife : public Item {
 
 class Cloth : public Item {
 public:
-	string size;
+	std::string size;
 
 	Cloth() {
 		size = "S";
 	}
 
-	Cloth(string name, double price, double weight, string size) {
+	Cloth(std::string name, double price, double weight, std::string size) {
 		this->name = name;
 		this->price = price;
 		this->weight = weight;
@@ -60,13 +58,13 @@ public:
 
 class Paint : public Item {
 public:
-	string type;
+	std::string type;
 
 	Paint() {
 		type = "glossy";
 	}
 
-	Paint(string name, double price, double weight, string type) {
+	Paint(std::string name, double price, double weight, std::string type) {
 		this->name = name;
 		this->price = price;
 		this->weight = weight;
@@ -75,7 +73,7 @@ public:
 };
 
 class Shop {
-	vector <Item> items;
+	std::vector <Item> items;
 	public:	
 		virtual double GetAvgPrice() {
 			double sum = 0;
@@ -98,7 +96,7 @@ class Shop {
 
 class KnifeShop : public Shop {
 	public:		
-		vector <Knife> knifes;
+		std::vector <Knife> knifes;
 		double GetAvgPrice() {
 			double sum = 0;
 			for (Item knife : knifes)
@@ -120,7 +118,7 @@ class KnifeShop : public Shop {
 
 class ClothShop : public Shop {
 	public:		
-		vector <Cloth> clothes;
+		std::vector <Cloth> clothes;
 		double GetAvgPrice() {
 			double sum = 0;
 			for (Item Cloth : clothes)
@@ -142,7 +140,7 @@ class ClothShop : public Shop {
 
 class PaintShop : public Shop {
 	public:		
-		vector <Paint> paints;
+		std::vector <Paint> paints;
 		double GetAvgPrice() {
 			double sum = 0;
 			for (Item Paint : paints)
@@ -169,25 +167,52 @@ PaintShop paintShop;
 void ReadFromFile() {
 	bool readKnifes, readClothes, readPaints;
 	readKnifes = readClothes = readPaints = false;
-	ifstream in;
+	std::ifstream in;
 	in.open(path);
 	if (in.is_open()) {
-		string str;
-		string strSplit[5];
+		std::string str;
+		std::string strSplit[5];
 		for (int i = 0; getline(in, str); i++)
 		{
-			stringstream s(str);
+			std::stringstream s(str);
 			int j = 0;
 			while (s.good() && j < 4) {				
 				s >> strSplit[j];		
-				cout << strSplit[j] << " ";
 				j++;
 			}
-			if (strSplit[0] == "Butterfly") {
+			
+			if (strSplit[1] == "Knifes") {
+				readKnifes = true;
+				readClothes = false;
+				readPaints = false;
+				continue;
+			}
+
+			if (strSplit[1] == "Clothes") {
+				readKnifes = false;
+				readClothes = true;
+				readPaints = false;
+				continue;
+			}
+
+			if (strSplit[1] == "Paints") {
+				readKnifes = false;
+				readClothes = false;
+				readPaints = true;
+				continue;
+			}			
+
+			if (readKnifes) {
 				knifeShop.knifes.push_back(Knife(strSplit[0], stod(strSplit[1]), stod(strSplit[2]), stod(strSplit[3])));
 			}
-			cout << endl;
-			
+
+			if (readClothes) {
+				clothShop.clothes.push_back(Cloth(strSplit[0], stod(strSplit[1]), stod(strSplit[2]), strSplit[3]));
+			}
+
+			if (readPaints) {
+				paintShop.paints.push_back(Paint(strSplit[0], stod(strSplit[1]), stod(strSplit[2]), strSplit[3]));
+			}
 		}
 	}
 	in.close();
@@ -196,6 +221,12 @@ void ReadFromFile() {
 int main() 
 {
 	ReadFromFile();
+	std::cout << "Knifes average price: " << knifeShop.GetAvgPrice() << std::endl;
+	std::cout << "Knifes average weight: " << knifeShop.GetAvgWeight() << std::endl;
+	std::cout << "Clothes average price: " << clothShop.GetAvgPrice() << std::endl;
+	std::cout << "Clothes average weight: " << clothShop.GetAvgWeight() << std::endl;
+	std::cout << "Paints average price: " << paintShop.GetAvgPrice() << std::endl;
+	std::cout << "Paints average weight: " << paintShop.GetAvgWeight() << std::endl;
 }
 
 
