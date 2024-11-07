@@ -1,5 +1,4 @@
-﻿Привет, исправь этот код чтобы он работал.
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
