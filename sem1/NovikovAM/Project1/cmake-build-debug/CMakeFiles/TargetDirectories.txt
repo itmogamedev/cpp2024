@@ -1,3 +1,0 @@
-C:/Users/Cauua/Documents/cpp2024/sem1/NovikovAM/Project1/cmake-build-debug/CMakeFiles/Project1.dir
-C:/Users/Cauua/Documents/cpp2024/sem1/NovikovAM/Project1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Cauua/Documents/cpp2024/sem1/NovikovAM/Project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
