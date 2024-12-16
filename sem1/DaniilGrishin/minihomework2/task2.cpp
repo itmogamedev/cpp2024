@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 
 bool checkSyracuse(const int num) {
@@ -26,8 +25,7 @@ int main() {
 		std::cout << "Syracuse's hypothesis is correct! Yay!";
 	}
 	else {
-		std::cout << "Siracusa's hypothesis is wrong... :(";
+		std::cout << "Syracuse's hypothesis is wrong... :(";
 	}
 }
 
-*/
