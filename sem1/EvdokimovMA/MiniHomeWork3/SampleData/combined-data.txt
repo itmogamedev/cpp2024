@@ -1,0 +1,187 @@
+3
+
+construction
+Builder
+25 Lenin St., Moscow, 101000
+6
+
+construction
+Cement Mix
+High-quality cement for construction projects
+499 99
+50.0
+Concrete
+30x40x15 cm
+
+tool
+Cordless Drill
+Powerful drill for all types of construction work
+3999 50
+1.2
+Drill
+18V
+Bosch
+
+construction
+Bricks
+Durable red bricks for building walls and structures
+29 50
+2.5
+Clay
+20x10x6 cm
+
+tool
+Electric Saw
+High-efficiency saw for precise wood and metal cutting
+5499 00
+3.5
+Saw
+1200W
+Makita
+
+construction
+Steel Rebar
+Strong steel rebar for concrete reinforcement
+149 99
+10.0
+Steel
+12x12x1000 cm
+
+tool
+Angle Grinder
+Versatile grinder for grinding, cutting, and polishing
+2799 99
+2.3
+Grinder
+750W
+DeWalt
+
+electronics
+DVideo
+78 Mira Ave., Saint Petersburg, 190000
+6
+
+phone
+iPhone 13
+Newest generation iPhone with advanced camera features
+79999 99
+0.174
+A15 Bionic
+Apple GPU (4-core graphics)
+4GB
+128GB
+iOS 15
+12MP
+
+computer
+MacBook Pro 16-inch
+High-performance laptop designed for professionals
+299999 00
+2.0
+M1 Pro
+Integrated 16-core GPU
+16GB
+512GB SSD
+macOS Monterey
+
+phone
+Samsung Galaxy S21
+Flagship smartphone with high-end display and camera
+69999 99
+0.169
+Exynos 2100
+Mali-G78 MP14
+8GB
+256GB
+Android 11
+64MP
+
+computer
+Dell XPS 15
+Powerful laptop with InfinityEdge display and latest processor
+209999 99
+1.8
+Intel Core i7-11800H
+NVIDIA GeForce GTX 1650
+16GB
+1TB SSD
+Windows 10
+
+phone
+Google Pixel 6
+Google’s latest smartphone with advanced AI camera features
+59999 99
+0.207
+Google Tensor
+Mali-G78 MP20
+8GB
+128GB
+Android 12
+50MP
+
+computer
+HP Spectre x360
+Versatile 2-in-1 laptop with strong security features
+159999 99
+1.32
+Intel Core i5-1135G7
+Intel Iris Xe Graphics
+8GB
+512GB SSD
+Windows 10
+
+grocery
+Shestorochka
+12 Gagarin St., Kazan, 420000
+6
+
+grocery
+Whole Wheat Flour
+High-quality flour for baking and cooking
+349 90
+1.0
+15.10.2025
+Wheat
+Mills
+
+grocery
+Organic Honey
+Pure organic honey harvested from local farms
+599 00
+0.5
+15.06.2024
+Honey
+Bee Farms
+
+beverage
+Apple Juice
+Freshly squeezed apple juice with no added sugar
+129 50
+1.0
+1.0
+Natural Juice Co.
+
+beverage
+Sparkling Water
+Refreshing sparkling water with natural minerals
+89 90
+0.5
+0.5
+Pure Springs
+
+grocery
+Almonds
+Raw almonds for snacking and baking
+899 00
+0.25
+15.11.2024
+Almonds
+Nutri Snacks
+
+beverage
+Green Tea
+High-quality green tea for a refreshing drink
+199 00
+0.25
+0.25
+Tea Masters
