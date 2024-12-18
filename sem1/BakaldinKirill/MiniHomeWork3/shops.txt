@@ -1,0 +1,24 @@
+Shop ClothingStore
+Items 5
+TShirt 15.99 0.2
+Jeans 45.50 0.6
+Jacket 89.99 1.2
+Sneakers 59.99 0.8
+Hat 12.99 0.1
+Jeans 33.50 1.3
+
+Shop GroceryStore
+Items 5
+Milk 1.50 1.0
+Bread 1.00 0.5
+Cheese 5.75 0.3
+Chicken 8.99 1.5
+Apple 0.99 0.2
+
+Shop MovieDiscStore
+Items 5
+ActionMovie 14.99 0.1
+RomanticComedy 9.99 0.1
+SciFiMovie 12.49 0.1
+HorrorMovie 10.99 0.1
+Documentary 8.99 0.1
