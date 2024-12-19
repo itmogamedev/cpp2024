@@ -5,7 +5,9 @@ using std::cin;
 
 int main()
 {
-	int storona;
-	cin >> storona;
-	cout << storona * storona;
+	int side;
+	cout << "Enter the side of the square: ";
+	cin >> side;
+	cout << side * side;
+	return 0;
 }
