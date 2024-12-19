@@ -15,4 +15,5 @@ int main()
 		a /=10;
 	}
 	cout << b;
+	return 0;
 }
