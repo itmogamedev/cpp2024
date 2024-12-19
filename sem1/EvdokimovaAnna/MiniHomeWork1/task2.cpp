@@ -2,20 +2,21 @@
 
 using std::cout;
 using std::cin;
-using std::endl;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
 	int a;
 	int b;
 	int h;
-	cout << "Сторона 1"<<endl;
+	
+	cout << "Enter the larger side of the base: ";
 	cin >> a;
-	cout << "Сторона 2"<<endl;
+	cout << "\nEnter the smaller side of the base: ";
 	cin >> b;
-	cout << "Высота"<<endl;
+	cout << "Enter the height: ";
 	cin >> h;
-	cout << "Площадь трапеции " << endl;
+	cout << "Area of the trapezoid: ";
 	cout << (a + b) / 2 * h;
+
+	return 0;
 }
