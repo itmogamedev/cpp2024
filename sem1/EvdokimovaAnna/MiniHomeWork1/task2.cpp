@@ -13,9 +13,9 @@ int main()
 	cin >> a;
 	cout << "\nEnter the smaller side of the base: ";
 	cin >> b;
-	cout << "Enter the height: ";
+	cout << "\nEnter the height: ";
 	cin >> h;
-	cout << "Area of the trapezoid: ";
+	cout << "\nArea of the trapezoid: ";
 	cout << (a + b) / 2 * h;
 
 	return 0;
