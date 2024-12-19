@@ -2,18 +2,18 @@
 #include <string>
 
 int Sistema8(int a) {
-    int Число = 0, Разряд = 1;
+    int number = 0, digit = 1;
 
     std::cout << "Число " << a << " в восьмеричной системе счисления = ";
 
     while (a != 0) {
-        int Остаток = a % 8;  
-        Число += Остаток * Разряд;  
+        int residue = a % 8;  
+        number += residue * digit;  
         a /= 8;  
-        Разряд *= 10;  
+        digit *= 10;  
     }
-    std::cout << Число << std::endl;
-    return Число;
+    std::cout << number << std::endl;
+    return number;
 }
 std::string Sistema16(int a) {
     if (a == 0) {
@@ -21,22 +21,22 @@ std::string Sistema16(int a) {
         return "0";
     }
 
-    std::string Число16;
+    std::string number16;
     std::cout << "Число " << a << " в шестнадцатеричной системе счисления = ";
 
     while (a != 0) {
-        int Остаток = a % 16;
-        if (Остаток < 10) {
-            Число16 = char('0' + Остаток) + Число16;
+        int residue = a % 16;
+        if (residue < 10) {
+            number16 = char('0' + residue) + number16;
         }
         else {
-            Число16 = char('A' + Остаток - 10) + Число16;
+            number16 = char('A' + residue - 10) + number16;
         }
         a /= 16; 
     }
 
-    std::cout << Число16 << std::endl; 
-    return Число16;
+    std::cout << number16 << std::endl; 
+    return number16;
 }
 
 
