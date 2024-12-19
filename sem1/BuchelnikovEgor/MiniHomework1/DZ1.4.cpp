@@ -1,13 +1,13 @@
 ﻿#include<iostream>
 int main() {
 	setlocale(LC_ALL, "Russian");
-	int number, chislo=0;
+	int number, digit=0;
 	std::cout << "Введите число ";
 	std::cin >> number;
 	while (number > 0) {
-		chislo = chislo * 10;
-		chislo = (number % 10)+chislo;
+		digit = digit * 10;
+		digit = (number % 10)+digit;
 		number = number / 10;
 	}
-	std::cout << chislo;
+	std::cout << digit;
 }
