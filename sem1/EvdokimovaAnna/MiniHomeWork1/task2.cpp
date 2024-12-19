@@ -12,4 +12,5 @@ int main()
 	cin >> b;
 	cin >> h;
 	cout << (a + b) / 2 * h;
+	return 0;
 }
