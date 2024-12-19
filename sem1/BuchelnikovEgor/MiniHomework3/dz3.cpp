@@ -77,7 +77,7 @@ int main() {
     setlocale(LC_ALL, "rus");
     std::ofstream database("Database.txt", std::ofstream::app);
     if (!database) {
-        std::cerr << "Не удалось открыть файл для записи!" << std::endl;
+        std::cout << "Не удалось открыть файл для записи!" << std::endl;
         return 1;
     }
     goods t(database);
