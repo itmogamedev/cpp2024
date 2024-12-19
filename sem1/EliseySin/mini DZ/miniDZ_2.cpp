@@ -1,6 +1,6 @@
 #include <iostream>
 
-void gipotizaSirakuzi(int n) 
+void HypothesisSyracuse(int n) 
 {
     if (n <= 0) 
     {
@@ -24,10 +24,10 @@ void gipotizaSirakuzi(int n)
 }
 int main() 
 {
-    int chislo;
+    int number;
     
     std::cout << "Введите положительное целое число: ";
-    std::cin >> chislo;
+    std::cin >> number;
 
-    gipotizaSirakuzi(chislo);
+    HypothesisSyracuse(number);
 }
