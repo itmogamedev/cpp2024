@@ -5,7 +5,8 @@ using std::cin;
 
 int main()
 {
-	int storona;
-	cin >> storona;
-	cout << storona * storona;
+	int side;
+	cin >> side;
+	cout << side * side;
+	return 0;
 }
