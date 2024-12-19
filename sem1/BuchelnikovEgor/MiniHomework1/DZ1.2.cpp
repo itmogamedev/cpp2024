@@ -4,11 +4,11 @@ int funcTRAPECIA(int a, int b, int c) {
 	return a;
 }
 int main() {
-	int Osnovane1, Osnavane2, Visota;
+	int base1, base2, height;
 	std::cout << "Vvedite 1 i 2 osnovanie trapecii" << std::endl;
-	std::cin >> Osnavane2 >> Osnovane1;
+	std::cin >> base2 >> base1;
 	std::cout << "Vvedte visotu trapecii" << std::endl;
-	std::cin >> Visota;
-	funcTRAPECIA(Osnovane1, Osnavane2, Visota);
+	std::cin >> height;
+	funcTRAPECIA(base1, base2, height);
 	return 0;
 }
