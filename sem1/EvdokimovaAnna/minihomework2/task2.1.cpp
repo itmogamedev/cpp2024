@@ -1,6 +1,8 @@
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::cin;
+
 int a;
 int main()
 {
