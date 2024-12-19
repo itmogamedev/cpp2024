@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 int main() {
 	setlocale(LC_ALL, "Russian");
-	int Переменная1 = 0, Переменная2 = 1, Переменная3;
+	int variable1 = 0, variable2 = 1, variable3;
 	while (true) {
 		int N;
 		std::cout << "Введите колличество элементов ряда Фиббоначи ";
@@ -12,10 +12,10 @@ int main() {
 	}
 
 	for (int i=0; i < N; i++) {
-		Переменная3 = Переменная1 + Переменная2;
-		std::cout << Переменная3 << " " << std::endl;
-		Переменная1 = Переменная2;
-		Переменная2 = Переменная3;
+		variable3 = variable1 + variable2;
+		std::cout << variable3 << " " << std::endl;
+		variable1 = variable2;
+		variable2 = variable3;
 	}
 	 break;
 	}
