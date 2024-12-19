@@ -7,7 +7,7 @@ using std::endl;
 int main()
 {
 	int n;
-	cout << "Enter natural number:" << endl;
+	cout << "Enter natural number: ";
 	cin >> n;
 	while (n != 1) {
 		if (n % 2 == 0) { n /= 2; }
