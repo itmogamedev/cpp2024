@@ -1,19 +1,20 @@
 #include <iostream>
 
-int main() {
-    int chislo;
-    int obchislo = 0;
+int main() 
+{
+    int number;
+    int rnumber = 0;
 
     std::cout << "Введите любое число, чтобы его развернуть: ";
-    std::cin >> chislo;
+    std::cin >> number;
 
-    while (chislo != 0)
+    while (number != 0)
     {
-        obchislo *= 10;
-        obchislo += chislo % 10;
-        chislo /= 10;
+        rnumber *= 10;
+        rnumber += chislo % 10;
+        number /= 10;
     }
 
-    std::cout << obchislo;
+    std::cout << rnumber;
 
 }
