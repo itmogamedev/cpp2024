@@ -10,7 +10,6 @@ int main()
 	cout << "Enter a number: ";
 	cin >> a;
 	while (a > 0) 
-	
 	{
 		b *= 10;
 		b += (a % 10);
