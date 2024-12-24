@@ -1,0 +1,26 @@
+Shop MVideo
+Items 5
+Iphone 30000 700
+Xiaomi 20000 600
+Redmi 15000 650
+LGMobile 12000 800
+ChinaFon 123456 2000
+Shop FruitsAndVegetables
+Items 5
+Apple 20 50
+Orange 50 100
+Cucumber 30 70
+Pineapple 70 100
+Watermellon 100 1000
+Shop Polaris
+Items 5
+VacuumCleaner 20000 2000
+Grill 5000 500
+CoffeeMachine 10000 2000
+WashingMachine 30000 7000
+Humidifier 7000 1000
+
+
+
+
+

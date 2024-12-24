@@ -1,0 +1,50 @@
+grocery
+Whole Wheat Flour
+High-quality flour for baking and cooking
+349 90
+1.0
+15.10.2025
+Wheat
+Mills
+
+grocery
+Organic Honey
+Pure organic honey harvested from local farms
+599 00
+0.5
+15.06.2024
+Honey
+Bee Farms
+
+beverage
+Apple Juice
+Freshly squeezed apple juice with no added sugar
+129 50
+1.0
+1.0
+Natural Juice Co.
+
+beverage
+Sparkling Water
+Refreshing sparkling water with natural minerals
+89 90
+0.5
+0.5
+Pure Springs
+
+grocery
+Almonds
+Raw almonds for snacking and baking
+899 00
+0.25
+15.11.2024
+Almonds
+Nutri Snacks
+
+beverage
+Green Tea
+High-quality green tea for a refreshing drink
+199 00
+0.25
+0.25
+Tea Masters

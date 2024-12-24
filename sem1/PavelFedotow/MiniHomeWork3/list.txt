@@ -1,0 +1,21 @@
+Shop ForPCs
+Items 5
+RTX4060ti 40000.0 1.5 240 FPS
+GTX1030 5000.0 1.2 40 FPS
+RTX2060super 17000.0 1.3 144 FPS
+GTX1050ti 8000.0 1.2 80 FPS
+GT710 1500.0 1.0 10 FPS
+Shop Fruits
+Items 5
+apple 10.0 0.5 "Vitamin C"
+banana 5.0 0.2 "Potassium"
+qiwi 12.0 0.1 "Vitamin C"
+lemon 7.0 0.1 "Vitamin C"
+peach 11.0 0.7 "Vitamin A"
+Shop Clothes
+Items 5
+tshirt 25.0 0.3 size M
+longsleeve 100.0 0.5 size XL
+cap 15.0 0.1 size ALL
+Crocs 150.0 0.6 size L
+shirt 30.0 0.4 size XXL

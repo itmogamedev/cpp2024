@@ -1,0 +1,23 @@
+Shop ITMOMerch
+Items 5
+Hoodie 3500 0.5 Color Blue
+Tshirt 1500 0.2 Material Cotton
+Cap 1200 0.1 Size Adjustable
+Mug 800 0.3 Capacity 300ml
+Notebook 500 0.2 Pages 100
+
+Shop ITMOTableGames
+Items 5
+StressQuest 1200 1.0 Players 2-4
+GraderNightmare 800 0.8 Age 12+
+DeadlineDash 500 0.3 TimeLimit 30min
+Studentopoly 2500 1.5 Players 2-6
+SyntaxScramble 1500 1.2 Difficulty Medium
+
+Shop GraphicsCards
+Items 5
+RTX3090 150000 1.5 FPS 600
+RTX3080 100000 1.4 FPS 550
+GTX1660 20000 1.0 FPS 300
+GTX1080 15000 0.9 FPS 280
+GTX1050 8000 0.8 FPS 200
