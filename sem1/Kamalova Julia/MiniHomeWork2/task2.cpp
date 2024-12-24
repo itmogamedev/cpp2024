@@ -1,21 +1,20 @@
-#include<iostream>
-using namespace std;
-
-int main(){
+int main() {
+    setlocale(LC_ALL, "RUS");
     int x;
-    cout << "Введите число: ";
-    cin >> x;
-    
-    while (x != 1) { 
+    std::cout << "Введите число: ";
+    std::cin >> x;
+
+    while (x != 1) {
         if (x % 2 == 0) {
-            x /= 2; 
-            cout << x << " "; 
-        } else {
-            x = (x * 3) + 1; 
-            cout << x << " "; 
+            x /= 2;
+            std::cout << x << " ";
+        }
+        else {
+            x = (x * 3) + 1;
+            std::cout << x << " ";
         }
     }
-    cout << endl;
-    cout << "Гипотеза верна";
+    std::cout << std::endl;
+    std::cout << "Гипотеза верна";
     return 0;
 }
