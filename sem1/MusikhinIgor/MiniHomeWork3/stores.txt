@@ -1,0 +1,23 @@
+Shop Electronics
+Items 5
+Laptop 1000 2
+Smartphone 500 0.5
+Tablet 300 0.7
+Headphones 100 0.2
+Smartwatch 200 0.1
+
+Shop Grocery
+Items 5
+Apples 1 0.1
+Bananas 2 0.15
+Oranges 2 0.2
+Milk 3 1
+Bread 2 0.5
+
+Shop Books
+Items 5
+Novel 10 0.3
+Biography 15 0.4
+Textbook 20 1.0
+Comics 5 0.2
+Magazine 7 0.25
