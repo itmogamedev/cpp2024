@@ -1,7 +1,7 @@
-#include <iostream>
+﻿#include <iostream>
 
 int main() {
-	int storona; 
-	std::cin >> storona;
-	std::cout << storona * storona;
+	int a;
+	std::cin >> a;
+	std::cout << a * a;
 }
