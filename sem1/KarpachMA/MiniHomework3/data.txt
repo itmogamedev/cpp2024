@@ -1,0 +1,21 @@
+Eldorado
+Items 5
+IPhone17 400000 200
+Macbook19+ 300000 1400
+PlayStation8 100000 500
+XBox5 80000 420
+SuperTv8000 100000 3500
+Semishagov
+Items 5
+Chicken 1000 100
+IceCream 200 100
+Lipton 200 100
+Cake 500 500
+Sucharicki 120 100
+Sportmaster
+Items 5
+Trainers 10000 300
+Ball 3000 300
+T-shirt 1000 400
+TennisRocket 18000 300
+Shorts 1500 200
