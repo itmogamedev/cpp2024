@@ -110,7 +110,7 @@ public:
         }
         std::string choice;
         std::cout << "What do you want to buy? (write 'exit' to exit)\n";
-        while (std::cin >> choice && choice != "quit") {
+        while (std::cin >> choice && choice != "exit") {
             if (shop.find(choice) != shop.end()) {
                 if (player.money >= shop[choice]) {
                     player.money -= shop[choice];
