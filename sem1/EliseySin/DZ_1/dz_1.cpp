@@ -1,13 +1,19 @@
 #include <iostream>
 
-int main()
+
+int calculateSquareArea(int side) 
+{
+    return side * side;
+}
+
+int main() 
 {
     int sk;
-    std::cout<<"Введите сторону квадрата: ";
-    std::cin>> sk;
+    std::cout << "Введите сторону квадрата: ";
+    std::cin >> sk;
     
-    int svk = sk*sk;
-    std::cout<< svk;
+    int svk = calculateSquareArea(sk);
+    std::cout << "Площадь квадрата: " << svk;
     
     return 0;
 }
