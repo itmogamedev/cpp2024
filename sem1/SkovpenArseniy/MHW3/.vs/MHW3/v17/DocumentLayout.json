@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HYPERPC\\source\\repos\\MHW3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EB975-715D-454A-9E78-851B15818F53}|MHW3\\MHW3.vcxproj|C:\\Users\\HYPERPC\\source\\repos\\MHW3\\MHW3\\MHW3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D43EB975-715D-454A-9E78-851B15818F53}|MHW3\\MHW3.vcxproj|solutionrelative:MHW3\\MHW3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MHW3.cpp",
+              "DocumentMoniker": "C:\\Users\\HYPERPC\\source\\repos\\MHW3\\MHW3\\MHW3.cpp",
+              "RelativeDocumentMoniker": "MHW3\\MHW3.cpp",
+              "ToolTip": "C:\\Users\\HYPERPC\\source\\repos\\MHW3\\MHW3\\MHW3.cpp",
+              "RelativeToolTip": "MHW3\\MHW3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-02T10:06:22.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

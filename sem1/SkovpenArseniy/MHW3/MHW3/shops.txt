@@ -1,0 +1,23 @@
+Shop Pyaterochka
+Items 6
+bread 64 0.3
+meet 290 0.5
+apple 103 1
+toilet paper 200 0.4
+milk 89 0.9
+doshirak 37 0.1
+Shop Red&White
+Items 5
+Red vine(New Zealand) 500 0.75
+Potato chips 140 0.1
+sausage(sliced) 150 0.2
+Beer 150 0.45
+cheese plate 300 0.2
+Shop Kuchenland Home
+Items 6
+Hand cream 329 0.05
+glass 1499 0.2
+vase 2690 0.4
+aroma diffuser 2490 0.15
+socks 1190 0.3
+frying pan 4490 1.5
