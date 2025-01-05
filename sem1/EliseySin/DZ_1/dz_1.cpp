@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int calculateSquareArea(int side) 
 {
     return side * side;
