@@ -1,37 +1,27 @@
 #include <iostream>
 
-void HypothesisSyracuse(int n) 
+int reverseNumber(int number) 
 {
-    if (n <= 0) 
+    int rnumber = 0;
+    while (number != 0) 
     {
-        std::cout << "Ошибка: Введите положительное целое число!" << std::endl;
-        return;
+        rnumber *= 10;
+        rnumber += number % 10;
+        number /= 10;
     }
-    
-    std::cout << "Последовательность для числа " << n << ": ";
-    while (n != 1) 
-    {
-        std::cout << n << " ";
-        if (n % 2 == 0) 
-        {
-            n /= 2;
-        } 
-        else 
-        {
-            n = (3 * n + 1) / 2;
-        }
-    }
-    std::cout << n << std::endl;
-    std::cout << "Гипотеза подтверждена!" << std::endl;
+    return rnumber;
 }
 
 int main() 
 {
     int number;
-    
-    std::cout << "Введите положительное целое число: ";
+
+    std::cout << "Введите любое число, чтобы его развернуть: ";
     std::cin >> number;
 
-    HypothesisSyracuse(number);
+    int rnumber = reverseNumber(number);
+
+    std::cout << "Число после разворота: " << rnumber << std::endl;
+
     return 0;
 }
