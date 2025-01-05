@@ -28,7 +28,7 @@ int main()
 {
     int number;
 
-    std::cout << "Введите целое число: ";
+    std::cout << "Введите число в десятичной системе счисления: ";
     std::cin >> number;
 
     std::string octal = toOctal(number);
