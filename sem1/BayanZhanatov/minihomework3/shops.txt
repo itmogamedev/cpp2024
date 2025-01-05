@@ -1,0 +1,13 @@
+Shop Candy 
+Items 3
+Licorice 340 1000
+Bullseye 120 400
+Candycorn 60 580
+Shop ForPCs
+Items 2
+NVIDIA6090 10000 10 
+NVIDIA5090 9999 9 
+Shop Fruits
+Items 2
+Banana 34 15 
+Apple 6 145

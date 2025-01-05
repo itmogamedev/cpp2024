@@ -1,0 +1,23 @@
+Shop Vegetables
+items 6
+carrot 50 30
+eggplant 80 100
+tomato 60 24
+cucumber 25 63
+corn 25 75
+potato 52 37
+Shop Coffee
+items 5
+moccachino 200 125
+American 230 125
+latte 210 125
+espresso 140 100
+macchiato 210 125
+Shop Table_Game
+items 5
+monopoly 1000 300
+cards 120 30
+Dixie 550 200
+D&D 4000 180
+scrabble 1500 300
+

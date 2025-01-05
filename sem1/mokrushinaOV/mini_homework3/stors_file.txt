@@ -1,0 +1,46 @@
+Store cool_magic_stuff
+magic_stik 999 111
+magic_potato 42 13
+magic_bomb 77 9
+cucumber 99999 1
+bird 33 12
+magic_wand 1500 5
+enchanted_ring 2500 2
+Store cool_games
+rain_world 999999 0
+hollow_knight 756 34
+papers_please 666 11
+animal_well 98368 72
+tunic 38256 49
+celeste 1999 15
+stardew_valley 1499 25
+Store cool_books
+mystery_novel 20 50
+science_fiction 15 30
+fantasy_epic 25 20
+cookbook 30 15
+biography 18 10
+Store cool_electronics
+smartphone 999 25
+laptop 1299 15
+tablet 499 40
+smartwatch 199 60
+headphones 99 100
+Store cool_clothing
+tshirt 19.99 200
+jeans 49.99 100
+jacket 89.99 50
+sneakers 69.99 75
+hat 24.99 150
+Store cool_toys
+action_figure 15.99 80
+puzzle 12.99 60
+board_game 29.99 40
+stuffed_animal 19.99 100
+building_blocks 34.99 30
+Store cool_furniture
+sofa 599.99 10
+dining_table 399.99 5
+chair 79.99 20
+bookshelf 199.99 15
+bed_frame 299.99 8

@@ -1,0 +1,68 @@
+phone
+iPhone 13
+Newest generation iPhone with advanced camera features
+79999 99
+0.174
+A15 Bionic
+Apple GPU (4-core graphics)
+4GB
+128GB
+iOS 15
+12MP
+
+computer
+MacBook Pro 16-inch
+High-performance laptop designed for professionals
+299999 00
+2.0
+M1 Pro
+Integrated 16-core GPU
+16GB
+512GB SSD
+macOS Monterey
+
+phone
+Samsung Galaxy S21
+Flagship smartphone with high-end display and camera
+69999 99
+0.169
+Exynos 2100
+Mali-G78 MP14
+8GB
+256GB
+Android 11
+64MP
+
+computer
+Dell XPS 15
+Powerful laptop with InfinityEdge display and latest processor
+209999 99
+1.8
+Intel Core i7-11800H
+NVIDIA GeForce GTX 1650
+16GB
+1TB SSD
+Windows 10
+
+phone
+Google Pixel 6
+Google’s latest smartphone with advanced AI camera features
+59999 99
+0.207
+Google Tensor
+Mali-G78 MP20
+8GB
+128GB
+Android 12
+50MP
+
+computer
+HP Spectre x360
+Versatile 2-in-1 laptop with strong security features
+159999 99
+1.32
+Intel Core i5-1135G7
+Intel Iris Xe Graphics
+8GB
+512GB SSD
+Windows 10
