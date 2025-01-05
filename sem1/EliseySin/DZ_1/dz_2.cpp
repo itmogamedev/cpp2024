@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int calculateTrapezoidArea(int bst, int mst, int vt) 
 {
     return ((bst + mst) * vt) / 2;
