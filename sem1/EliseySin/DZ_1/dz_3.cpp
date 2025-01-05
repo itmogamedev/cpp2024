@@ -1,35 +1,36 @@
 #include <iostream>
 
-int main()
+void printFibonacciSequence(int ke) 
 {
-    int ke;
     int e0 = 0;
     int e1 = 1;
     int enext;
-    
-    std::cout<<"Введите кол-во элементов последовательности фибоначи: ";
-    std::cin>> ke;
-    
-    if (ke == 1)
+
+    if (ke >= 1) 
     {
-         std::cout << e0;
+        std::cout << e0 << " ";
     }
-    for(int b = 1; b < ke; b++)
+    if (ke >= 2) 
     {
-        if (b == 1)
-        {
-            std::cout<< e0 << " ";
-        }
-        if (b == 2)
-        {
-            std::cout<< e1 << " ";
-        }
-        else{
-            enext = e0 + e1;
-            e0 = e1;
-            e1 = enext;
-            
-            std::cout << enext << " ";
-        }
+        std::cout << e1 << " ";
     }
+
+    for (int b = 3; b <= ke; b++) 
+    {
+        enext = e0 + e1;
+        e0 = e1;
+        e1 = enext;
+
+        std::cout << enext << " ";
+    }
+}
+
+int main() 
+{
+    int ke;
+    std::cout << "Введите кол-во элементов последовательности Фибоначчи: ";
+    std::cin >> ke;
+
+    printFibonacciSequence(ke);
+    return 0;
 }
