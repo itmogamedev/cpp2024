@@ -1,23 +1,3 @@
-/*#include<iostream>
-#include <random>
-int main()
-{
-    std::cout << "Game: queue at the store\n"
-    double people, cassa;
-    
-    std::string can;
-    std::cout<<"Задать количество людей и касс самостоятельно (Yes or No)? ";
-    std::cin >> can;
-    if (can == "Yes"){
-        std::cout << "Введите число клиентов от 5 до 15: "; std::cin >> people;
-        std::cout << "Введите число касс от 1 до 15: "; std::cin >> cassa;}
-    else if (can == "No"){
-        people = rand() % 11 + 5;
-        cassa = rand() % 15 + 1;
-    
-    
-    return 0;
-}*/
 #include <iostream>
 #include <string>
 #include <cstdlib>
