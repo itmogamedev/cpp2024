@@ -1,0 +1,20 @@
+# Папки Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Файлы сборки и кэша
+bin/
+obj/
+*.suo
+*.user
+*.cache
+*.log
+
+# Файлы конфигурации
+*.csproj.user
+*.sln.docstates
+
+# Системные файлы
+.DS_Store
+Thumbs.db
