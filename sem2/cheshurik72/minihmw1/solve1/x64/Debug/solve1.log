@@ -1,0 +1,307 @@
+﻿  solve1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(5742,16): error C2065: RAND_MAX: необъявленный идентификатор
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(5746,47): error C2039: "rand": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(5746,47): error C3861: rand: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(24,18): error C2039: "fabs": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(24,18): error C3861: fabs: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(28,18): error C2039: "fabsf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(28,18): error C3861: fabsf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(32,18): error C2039: "fabsl": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cstdlib(32,18): error C3861: fabsl: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(38,18): error C2039: "acosf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(38,18): error C3861: acosf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(42,18): error C2039: "acoshf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(42,18): error C3861: acoshf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(46,18): error C2039: "asinf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(46,18): error C3861: asinf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(50,18): error C2039: "asinhf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(50,18): error C3861: asinhf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(54,18): error C2039: "atanf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(54,18): error C3861: atanf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(58,18): error C2039: "atanhf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(58,18): error C3861: atanhf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(62,18): error C2039: "atan2f": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(62,18): error C3861: atan2f: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(66,18): error C2039: "cbrtf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(66,18): error C3861: cbrtf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(90,18): error C2039: "cosf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(90,18): error C3861: cosf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(94,18): error C2039: "coshf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(94,18): error C3861: coshf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(98,18): error C2039: "erff": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(98,18): error C3861: erff: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(102,18): error C2039: "erfcf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(102,18): error C3861: erfcf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(106,18): error C2039: "expf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(106,18): error C3861: expf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(110,18): error C2039: "exp2f": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(110,18): error C3861: exp2f: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(114,18): error C2039: "expm1f": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(114,18): error C3861: expm1f: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(118,18): error C2039: "fabsf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(118,18): error C3861: fabsf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(122,18): error C2039: "fdimf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(122,18): error C3861: fdimf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(136,18): error C2039: "fmaf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(136,18): error C3861: fmaf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(140,18): error C2039: "fmaxf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(140,18): error C3861: fmaxf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(144,18): error C2039: "fminf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(144,18): error C3861: fminf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(148,18): error C2039: "fmodf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(148,18): error C3861: fmodf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(152,18): error C2039: "frexpf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(152,18): error C3861: frexpf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(156,18): error C2039: "hypotf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(156,18): error C3861: hypotf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(160,18): error C2039: "ilogbf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(160,18): error C3861: ilogbf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(164,18): error C2039: "ldexpf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(164,18): error C3861: ldexpf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(168,18): error C2039: "lgammaf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(168,18): error C3861: lgammaf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(172,18): error C2039: "llrintf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(172,18): error C3861: llrintf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(176,18): error C2039: "llroundf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(176,18): error C3861: llroundf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(180,18): error C2039: "logf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(180,18): error C3861: logf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(184,18): error C2039: "log10f": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(184,18): error C3861: log10f: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(188,18): error C2039: "log1pf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(188,18): error C3861: log1pf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(192,18): error C2039: "log2f": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(192,18): error C3861: log2f: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(196,18): error C2039: "logbf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(196,18): error C3861: logbf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(200,18): error C2039: "lrintf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(200,18): error C3861: lrintf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(204,18): error C2039: "lroundf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(204,18): error C3861: lroundf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(208,18): error C2039: "modff": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(208,18): error C3861: modff: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(212,18): error C2039: "nearbyintf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(212,18): error C3861: nearbyintf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(216,18): error C2039: "nextafterf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(216,18): error C3861: nextafterf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(220,18): error C2039: "nexttowardf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(220,18): error C3861: nexttowardf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(224,18): error C2039: "powf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(224,18): error C3861: powf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(228,18): error C2039: "remainderf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(228,18): error C3861: remainderf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(232,18): error C2039: "remquof": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(232,18): error C3861: remquof: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(236,18): error C2039: "rintf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(236,18): error C3861: rintf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(250,18): error C2039: "scalblnf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(250,18): error C3861: scalblnf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(254,18): error C2039: "scalbnf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(254,18): error C3861: scalbnf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(258,18): error C2039: "sinf": не является членом "`global namespace'".
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(258,18): error C3861: sinf: идентификатор не найден
+  (компиляция исходного файла "solve1.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\cmath(258,18): error C1003: число ошибок превышает 100; остановка компиляции
+  (компиляция исходного файла "solve1.cpp")
+  
