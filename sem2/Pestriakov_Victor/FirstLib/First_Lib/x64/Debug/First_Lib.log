@@ -1,0 +1,6 @@
+﻿  AllFunc.cpp
+C:\Users\Vit19\source\repos\FirstLib\First_Lib\AllFunc.cpp(8,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit19\source\repos\FirstLib\First_Lib\AllFunc.cpp(18,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit19\source\repos\FirstLib\First_Lib\AllFunc.cpp(26,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit19\source\repos\FirstLib\First_Lib\AllFunc.cpp(34,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  First_Lib.vcxproj -> C:\Users\Vit19\source\repos\FirstLib\x64\Debug\First_Lib.lib
