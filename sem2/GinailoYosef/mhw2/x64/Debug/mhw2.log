@@ -1,0 +1,17 @@
+﻿  Source.cpp
+D:\Development\Libraries_C++\SFML_64_17\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+  (компиляция исходного файла "Source.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\stdexcept(100,19):
+       см. объявление "std::runtime_error"
+      D:\Development\Libraries_C++\SFML_64_17\include\SFML\System\Exception.hpp(41,23):
+       см. объявление "sf::Exception"
+  
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(69,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(69,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(75,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(75,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(99,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(124,49): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(128,49): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\Development\VS Projects\mhw2\mhw2\Source.cpp(133,36): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+  mhw2.vcxproj -> D:\Development\VS Projects\mhw2\x64\Debug\mhw2.exe
