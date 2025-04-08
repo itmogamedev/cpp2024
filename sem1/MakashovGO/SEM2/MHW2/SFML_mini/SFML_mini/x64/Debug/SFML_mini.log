@@ -1,0 +1,11 @@
+﻿  Game.cpp
+C:\Users\Makas\source\repos\SFML_mini\SFML_mini\Game.h(15,41): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+  (компиляция исходного файла "Game.cpp")
+  
+C:\Users\Makas\source\repos\SFML_mini\SFML_mini\Game.cpp(32,81): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  main.cpp
+C:\Users\Makas\source\repos\SFML_mini\SFML_mini\Game.h(15,41): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+  
+  Создание кода...
+  SFML_mini.vcxproj -> C:\Users\Makas\source\repos\SFML_mini\x64\Debug\SFML_mini.exe
