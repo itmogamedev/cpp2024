@@ -1,0 +1,12 @@
+﻿  miniHW2_sem2.cpp
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(60,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(61,11): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(86,69): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(86,39): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(108,51): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(108,51): warning C4244:         with
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(108,51): warning C4244:         [
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(108,51): warning C4244:             T=unsigned int
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(108,51): warning C4244:         ]
+C:\Users\Маша\source\repos\miniHW2_sem2\miniHW2_sem2.cpp(135,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  miniHW2_sem2.vcxproj -> C:\Users\Маша\source\repos\miniHW2_sem2\x64\Debug\miniHW2_sem2.exe

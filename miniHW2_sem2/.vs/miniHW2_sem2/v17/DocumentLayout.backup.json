@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B23C86-A794-41BE-9C05-548139E9A14B}|miniHW2_sem2.vcxproj|C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\miniHW2_sem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2B23C86-A794-41BE-9C05-548139E9A14B}|miniHW2_sem2.vcxproj|solutionrelative:miniHW2_sem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B23C86-A794-41BE-9C05-548139E9A14B}|miniHW2_sem2.vcxproj|C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2B23C86-A794-41BE-9C05-548139E9A14B}|miniHW2_sem2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T09:15:36.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "miniHW2_sem2.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\miniHW2_sem2.cpp",
+              "RelativeDocumentMoniker": "miniHW2_sem2.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\source\\repos\\miniHW2_sem2\\miniHW2_sem2.cpp",
+              "RelativeToolTip": "miniHW2_sem2.cpp",
+              "ViewState": "AgIAALQAAAAAAAAAAAAowMcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T09:13:17.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
