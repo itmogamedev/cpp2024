@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}

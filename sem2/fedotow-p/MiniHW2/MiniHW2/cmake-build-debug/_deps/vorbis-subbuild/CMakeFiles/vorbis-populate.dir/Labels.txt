@@ -1,0 +1,14 @@
+# Target labels
+ vorbis-populate
+# Source files and their labels
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update.rule

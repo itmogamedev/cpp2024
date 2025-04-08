@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\MiniHW1\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\MiniHW1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96A1FD4E-8FFD-4CB3-BBF6-AA0952B19663}|MiniHW1\\MiniHW1.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\MiniHW1\\MiniHW1\\MiniHW1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{96A1FD4E-8FFD-4CB3-BBF6-AA0952B19663}|MiniHW1\\MiniHW1.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\MiniHW1\\MiniHW1\\MiniHW1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{96A1FD4E-8FFD-4CB3-BBF6-AA0952B19663}|MiniHW1\\MiniHW1.vcxproj|solutionrelative:MiniHW1\\MiniHW1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MiniHW1.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\MiniHW1\\MiniHW1\\MiniHW1.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\MiniHW1\\MiniHW1\\MiniHW1.cpp",
               "RelativeDocumentMoniker": "MiniHW1\\MiniHW1.cpp",
-              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\MiniHW1\\MiniHW1\\MiniHW1.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\MiniHW1\\MiniHW1\\MiniHW1.cpp",
               "RelativeToolTip": "MiniHW1\\MiniHW1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T17:13:52.091Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

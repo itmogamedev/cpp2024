@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|solutionrelative:HWDll\\Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|solutionrelative:HWDll\\Functions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|solutionrelative:HWDll\\Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0DFFA4F2-D22E-48FE-8657-9C435C01BB1C}|HWDll\\HWDll.vcxproj|solutionrelative:HWDll\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -25,12 +25,16 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Functions.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.cpp",
               "RelativeDocumentMoniker": "HWDll\\Functions.cpp",
-              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.cpp",
               "RelativeToolTip": "HWDll\\Functions.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -39,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Functions.h",
-              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.h",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.h",
               "RelativeDocumentMoniker": "HWDll\\Functions.h",
-              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\Functions.h",
+              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\Functions.h",
               "RelativeToolTip": "HWDll\\Functions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-11T16:38:23.118Z",
               "EditorCaption": ""
@@ -54,17 +58,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "dllmain.cpp",
-              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\dllmain.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\dllmain.cpp",
               "RelativeDocumentMoniker": "HWDll\\dllmain.cpp",
-              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\source\\repos\\HWDll\\HWDll\\dllmain.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u0430\u0448\u043E\u043A\\Documents\\cpp2024\\sem2\\fedotow-p\\MiniHW1\\HWDll\\HWDll\\dllmain.cpp",
               "RelativeToolTip": "HWDll\\dllmain.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T16:37:18.25Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flac-populate"
+		],
+		"name" : "flac-populate"
+	}
+}

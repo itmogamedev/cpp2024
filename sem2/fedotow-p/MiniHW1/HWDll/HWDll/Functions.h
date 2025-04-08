@@ -10,11 +10,9 @@
 #define HWDll_API __declspec(dllimport)
 #endif // HWDll_EXPORTS
 
-
-extern "C" HWDll_API float averageArithmeticValue(std::vector<float>& numbers);
-
-extern "C" HWDll_API float median(std::vector<float>& numbers);
-
-extern "C" HWDll_API float averageSquareValue(std::vector<float>& numbers);
-
-extern "C" HWDll_API float variance(std::vector<float>& numbers);
+extern "C" {
+	HWDll_API float averageArithmeticValue(std::vector<float>& numbers);
+	HWDll_API float median(std::vector<float>& numbers);
+	HWDll_API float averageSquareValue(std::vector<float>& numbers);
+	HWDll_API float variance(std::vector<float>& numbers);
+}

@@ -1,0 +1,3 @@
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir

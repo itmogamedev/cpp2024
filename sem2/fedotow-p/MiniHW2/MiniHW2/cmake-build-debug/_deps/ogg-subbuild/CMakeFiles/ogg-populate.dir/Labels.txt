@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule

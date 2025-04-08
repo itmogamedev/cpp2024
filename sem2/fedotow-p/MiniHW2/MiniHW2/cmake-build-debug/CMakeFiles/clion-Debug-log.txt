@@ -1,0 +1,31 @@
+"G:\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Пашок\CLionProjects\MiniHW2 -B C:\Users\Пашок\CLionProjects\MiniHW2\cmake-build-debug
+CMake Deprecation Warning at cmake-build-debug/_deps/freetype-src/CMakeLists.txt:113 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+CMake Deprecation Warning at cmake-build-debug/_deps/ogg-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring libogg 1.3.5
+CMake Deprecation Warning at cmake-build-debug/_deps/vorbis-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring vorbis 1.3.7
+-- Configuring done (3.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug

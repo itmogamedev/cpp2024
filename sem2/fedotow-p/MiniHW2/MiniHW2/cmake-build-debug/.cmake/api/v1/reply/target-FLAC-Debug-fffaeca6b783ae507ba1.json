@@ -1,0 +1,678 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/sfml-build/lib/libFLACd.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_definitions",
+			"sfml_add_audio_dependencies",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt",
+			"cmake-build-debug/_deps/flac-src/CMakeLists.txt",
+			"cmake-build-debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt",
+			"cmake-build-debug/_deps/flac-src/cmake/UseSystemExtensions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 198,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 159,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 147,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 54,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 187,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdeclaration-after-statement"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fassociative-math"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-signed-zeros"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-trapping-math"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-freciprocal-math"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "FLAC__NO_DLL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "FLAC__OVERFLOW_DETECT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_DARWIN_C_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_POSIX_PTHREAD_SEMANTICS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_TANDEM_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_BFP_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_DFP_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_FUNCS_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_TYPES_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_LIB_EXT2__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_MATH_SPEC_FUNCS__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-build"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/src/libFLAC/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-build/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				29,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "FLAC__NO_DLL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "FLAC__OVERFLOW_DETECT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_DARWIN_C_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_POSIX_PTHREAD_SEMANTICS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_TANDEM_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_BFP_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_DFP_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_FUNCS_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_IEC_60559_TYPES_EXT__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_LIB_EXT2__"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_WANT_MATH_SPEC_FUNCS__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-build"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/src/libFLAC/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-build/include"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				28
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ogg::@4e5ed7d02827854e35f8"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Dependencies"
+	},
+	"id" : "FLAC::@d572677c3819035d9b3d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/Project"
+		}
+	},
+	"name" : "FLAC",
+	"nameOnDisk" : "libFLACd.a",
+	"paths" : 
+	{
+		"build" : "_deps/flac-build/src/libFLAC",
+		"source" : "cmake-build-debug/_deps/flac-src/src/libFLAC"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				31,
+				32,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/bitmath.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/bitreader.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/bitwriter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/cpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/fixed.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/fixed_intrin_sse2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/fixed_intrin_ssse3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/fixed_intrin_sse42.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/fixed_intrin_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/float.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/format.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc_intrin_neon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc_intrin_sse2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc_intrin_sse41.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc_intrin_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/lpc_intrin_fma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/metadata_iterators.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/metadata_object.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_decoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_encoder_intrin_sse2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_encoder_intrin_ssse3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_encoder_intrin_avx2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/stream_encoder_framing.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/version.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/window.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cmake-build-debug/_deps/flac-src/include/share/win_utf8_io.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/share/win_utf8_io/win_utf8_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/ogg_decoder_aspect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/ogg_encoder_aspect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/ogg_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/src/libFLAC/ogg_mapping.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

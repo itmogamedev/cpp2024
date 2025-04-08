@@ -1,0 +1,69 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/sfml-src/cmake/Macros.cmake",
+			"cmake-build-debug/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 232,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/sfml-build/lib/libsfml-audio-s-d.a"
+			],
+			"targetId" : "sfml-audio::@a153e5727587c53fce98",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "lib/cmake/SFML",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/sfml-build/src/SFML/Audio/SFMLAudioDependencies.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/sfml-build/src/SFML/Audio",
+		"source" : "cmake-build-debug/_deps/sfml-src/src/SFML/Audio"
+	}
+}

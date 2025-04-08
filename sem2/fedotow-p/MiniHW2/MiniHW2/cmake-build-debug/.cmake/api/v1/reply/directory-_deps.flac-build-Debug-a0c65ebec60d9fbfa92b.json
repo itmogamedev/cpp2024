@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/flac-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 254,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/FLAC",
+			"exportName" : "targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "FLAC::@d572677c3819035d9b3d",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/FLAC",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/flac-build/flac-config.cmake",
+				"cmake-build-debug/_deps/flac-build/flac-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/FLAC",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/flac-build/flac-config.cmake",
+				"cmake-build-debug/_deps/flac-build/flac-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/flac-build",
+		"source" : "cmake-build-debug/_deps/flac-src"
+	}
+}

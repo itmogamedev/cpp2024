@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/ogg-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/sfml-build/lib/liboggd.a"
+			],
+			"targetId" : "ogg::@4e5ed7d02827854e35f8",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Ogg",
+			"exportName" : "OggTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"_deps/ogg-build/CMakeFiles/Export/dee6fd410a50d06b294b496f57355584/OggTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Ogg",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/ogg-build/OggConfig.cmake",
+				"cmake-build-debug/_deps/ogg-build/OggConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ogg-build",
+		"source" : "cmake-build-debug/_deps/ogg-src"
+	}
+}

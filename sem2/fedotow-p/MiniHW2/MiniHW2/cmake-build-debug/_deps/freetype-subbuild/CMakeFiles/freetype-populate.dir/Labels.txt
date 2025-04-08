@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update.rule

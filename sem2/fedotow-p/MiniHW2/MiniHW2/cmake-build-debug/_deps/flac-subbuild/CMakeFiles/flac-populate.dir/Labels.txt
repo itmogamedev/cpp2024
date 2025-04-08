@@ -1,0 +1,14 @@
+# Target labels
+ flac-populate
+# Source files and their labels
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test.rule
+C:/Users/Пашок/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update.rule

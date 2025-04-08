@@ -1,0 +1,298 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "objs/benchmark_residual.exe"
+		},
+		{
+			"path" : "objs/benchmark_residual.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/flac-src/microbench/CMakeLists.txt",
+			"cmake-build-debug/_deps/flac-src/src/libFLAC/CMakeLists.txt",
+			"cmake-build-debug/_deps/flac-src/CMakeLists.txt",
+			"cmake-build-debug/_deps/flac-src/cmake/UseSystemExtensions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 168,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 198,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 107,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 54,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 189,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 187,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wdeclaration-after-statement"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "FLAC__NO_DLL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "FLAC__OVERFLOW_DETECT"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_DARWIN_C_SOURCE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_POSIX_PTHREAD_SEMANTICS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_TANDEM_SOURCE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_IEC_60559_BFP_EXT__"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_IEC_60559_DFP_EXT__"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_IEC_60559_FUNCS_EXT__"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_IEC_60559_TYPES_EXT__"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_LIB_EXT2__"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_WANT_MATH_SPEC_FUNCS__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-build"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/src/libFLAC/include"
+				},
+				{
+					"backtrace" : 15,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/flac-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/\u041f\u0430\u0448\u043e\u043a/CLionProjects/MiniHW2/cmake-build-debug/_deps/ogg-build/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ogg::@4e5ed7d02827854e35f8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "FLAC::@d572677c3819035d9b3d"
+		}
+	],
+	"id" : "benchmark_residual::@3956ab943ce8cc4f6f98",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps\\sfml-build\\lib\\libFLACd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "_deps\\sfml-build\\lib\\liboggd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "benchmark_residual",
+	"nameOnDisk" : "benchmark_residual.exe",
+	"paths" : 
+	{
+		"build" : "_deps/flac-build/microbench",
+		"source" : "cmake-build-debug/_deps/flac-src/microbench"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/microbench/benchmark_residual.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/_deps/flac-src/microbench/util.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
