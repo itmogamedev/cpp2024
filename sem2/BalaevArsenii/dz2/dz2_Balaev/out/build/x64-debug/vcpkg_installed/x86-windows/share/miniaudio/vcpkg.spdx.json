@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/miniaudio-x86-windows-0.11.22-bc94423a-ff42-451f-8aea-9c325a38e646",
+  "name": "miniaudio:x86-windows@0.11.22 30c30dc55e6bd564d4102a6f55fd09cf6de199215bd8320541fa7c8bec68152f",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2025-03-22-d4dd14112c2026ee57e59f966ecfa3b9137bd143"
+    ],
+    "created": "2025-04-08T21:00:32Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "miniaudio",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.11.22",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/mackron/miniaudio",
+      "licenseConcluded": "Unlicense OR MIT-0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Audio playback and capture library written in C, in a single source file",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "miniaudio:x86-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "30c30dc55e6bd564d4102a6f55fd09cf6de199215bd8320541fa7c8bec68152f",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Unlicense OR MIT-0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-0",
+      "name": "mackron/miniaudio",
+      "downloadLocation": "git+https://github.com/mackron/miniaudio@0.11.22",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "6027109fd6427eb52eea6535dded0f419d79d1a31a2bf4a1a11c1fb48485fa4e65cac04fb0b7c82811663ce86227e0527a49e681ce966934c0159ccbc1ad094c"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./F:/vcpkg/ports/miniaudio/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a1eb38d2e029fdf3ed12142d04369a682c8a633c3589400d1a830528d8b11322"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./F:/vcpkg/ports/miniaudio/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7662c05f2870ef842be9babf33c5728d0e260f7bdc85ff4c7e1ea4e7b7f6df23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
