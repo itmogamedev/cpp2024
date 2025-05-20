@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 int main(){
-    std::vector<std::string> book{ "666", "ecy" };
+    std::vector<std::string> book{ "336", "ecy" };
 
     auto len = [&book](){
             for (std::string part : book)
