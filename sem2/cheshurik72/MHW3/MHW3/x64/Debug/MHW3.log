@@ -1,0 +1,3 @@
+﻿  MHW3.cpp
+D:\visual studio c++\MHW3\MHW3\MHW3.cpp(12,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MHW3.vcxproj -> D:\visual studio c++\MHW3\x64\Debug\MHW3.exe
