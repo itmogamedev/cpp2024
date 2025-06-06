@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{109EEFA1-7832-4840-8284-77149663320B}|..\\TestingLib\\TestingLib.vcxproj|C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\TestingLib\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272A09F1-2504-4C68-99F3-8E8039C8BC73}|MyStaticLib.vcxproj|C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\myStaticLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{272A09F1-2504-4C68-99F3-8E8039C8BC73}|MyStaticLib.vcxproj|solutionrelative:myStaticLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272A09F1-2504-4C68-99F3-8E8039C8BC73}|MyStaticLib.vcxproj|C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\statistics_lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{272A09F1-2504-4C68-99F3-8E8039C8BC73}|MyStaticLib.vcxproj|solutionrelative:statistics_lib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "statistics_lib.h",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\statistics_lib.h",
+              "RelativeDocumentMoniker": "statistics_lib.h",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\statistics_lib.h",
+              "RelativeToolTip": "statistics_lib.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T18:37:29.581Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\TestingLib\\main.cpp",
+              "RelativeDocumentMoniker": "..\\TestingLib\\main.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\TestingLib\\main.cpp",
+              "RelativeToolTip": "..\\TestingLib\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T18:47:05.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "myStaticLib.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\myStaticLib.cpp",
+              "RelativeDocumentMoniker": "myStaticLib.cpp",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u0448\u0430\\Desktop\\c\u002B\u002B\\MyStaticLib\\myStaticLib.cpp",
+              "RelativeToolTip": "myStaticLib.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T18:31:59.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
