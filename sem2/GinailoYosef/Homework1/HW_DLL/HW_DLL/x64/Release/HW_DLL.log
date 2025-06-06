@@ -1,0 +1,40 @@
+﻿  HW_DLL.cpp
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(7,7): warning C4273: arithmetic_mean: несовместимое связывание dll
+  (компиляция исходного файла "/HW_DLL.cpp")
+      D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.h(9,25):
+      см. предыдущее определение "arithmetic_mean"
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(15,7): warning C4273: median: несовместимое связывание dll
+  (компиляция исходного файла "/HW_DLL.cpp")
+      D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.h(10,25):
+      см. предыдущее определение "median"
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(20,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/HW_DLL.cpp")
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(28,7): warning C4273: mean_square: несовместимое связывание dll
+  (компиляция исходного файла "/HW_DLL.cpp")
+      D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.h(11,25):
+      см. предыдущее определение "mean_square"
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(31,42): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/HW_DLL.cpp")
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(32,20): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/HW_DLL.cpp")
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(35,7): warning C4273: number_series_variance: несовместимое связывание dll
+  (компиляция исходного файла "/HW_DLL.cpp")
+      D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.h(12,25):
+      см. предыдущее определение "number_series_variance"
+  
+D:\Development\VS Projects\HW_DLL\HW_DLL\HW_DLL.cpp(36,49): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/HW_DLL.cpp")
+  
+     Создается библиотека D:\Development\VS Projects\HW_DLL\x64\Release\HW_DLL.lib и объект D:\Development\VS Projects\HW_DLL\x64\Release\HW_DLL.exp
+  Создание кода
+  0 of 112 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  HW_DLL.vcxproj -> D:\Development\VS Projects\HW_DLL\x64\Release\HW_DLL.dll

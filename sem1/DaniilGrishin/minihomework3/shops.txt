@@ -1,0 +1,22 @@
+Shop ForPCs
+Items 5
+NVIDIA6090 10000 10 FPS 600 
+NVIDIA3090 5342 4 FPS 256
+NVIDIA4020 7000 10 FPS 600 
+NVIDIA5090 9999 9 FPS 500 
+NVIDIA1660 2000 3 FPS 120
+Shop Fruits
+Items 6
+BananaAfric 3 1 Vitamins Ka Ca
+Apple1 3 1 Vitamins Fe I
+Apple2 2 1 Vitamins Fe I
+AppleDorogoe 6 1 Vitamins Fe I
+Granat 5 1 Vitamins C P B6
+Mandarini 8 1 Vitamins C P
+Shop Books
+Items 5
+CPlusPlusBook 25 1 Pages 400
+PythonBook 20 1 Pages 300
+Algorithms 300 1.0 Pages 412
+Gamedesign 800 1.1 Pages 250
+SumotatamiGuide 1000 3 Pages 43

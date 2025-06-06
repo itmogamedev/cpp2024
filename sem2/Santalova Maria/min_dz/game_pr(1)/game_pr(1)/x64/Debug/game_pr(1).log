@@ -1,0 +1,13 @@
+﻿  main.cpp
+D:\SFML-3.0.0\include\SFML\System\Exception.hpp(42,1): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\stdexcept(101): message : see declaration of 'std::runtime_error'
+D:\SFML-3.0.0\include\SFML\System\Exception.hpp(41): message : see declaration of 'sf::Exception'
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(83,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(83,17): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(89,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(89,17): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(119,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(144,49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(149,49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\C++Projects\game_pr(1)\game_pr(1)\main.cpp(154,36): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  game_pr(1).vcxproj -> D:\C++Projects\game_pr(1)\x64\Debug\game_pr(1).exe

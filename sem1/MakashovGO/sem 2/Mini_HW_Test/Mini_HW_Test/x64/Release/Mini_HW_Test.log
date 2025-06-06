@@ -1,0 +1,8 @@
+﻿  Mini_HW_Test.cpp
+  Создание кода
+C:\Users\Makas\source\repos\Mini_HW1\MidleDll\dllmain.cpp(11): warning C4723: возможное деление на 0
+  162 of 199 functions (81.4%) were compiled, the rest were copied from previous compilation.
+    104 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Mini_HW_Test.vcxproj -> C:\Users\Makas\source\repos\Mini_HW_Test\x64\Release\Mini_HW_Test.exe

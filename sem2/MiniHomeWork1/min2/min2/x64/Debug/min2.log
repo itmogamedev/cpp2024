@@ -1,0 +1,42 @@
+﻿  MathLibrary.cpp
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(31,8): warning C4273: 'calculateMean': inconsistent dll linkage
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.h(10,35):
+      see previous definition of 'calculateMean'
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(33,13): warning C4297: 'calculateMean': function assumed not to throw an exception but does
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(33,13):
+      __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(40,8): warning C4273: 'calculateMedian': inconsistent dll linkage
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.h(12,35):
+      see previous definition of 'calculateMedian'
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(42,13): warning C4297: 'calculateMedian': function assumed not to throw an exception but does
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(42,13):
+      __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(58,9): warning C4273: 'calculateMeanSquare': inconsistent dll linkage
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.h(14,35):
+      see previous definition of 'calculateMeanSquare'
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(60,13): warning C4297: 'calculateMeanSquare': function assumed not to throw an exception but does
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(60,13):
+      __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(71,8): warning C4273: 'calculateVariance': inconsistent dll linkage
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.h(16,35):
+      see previous definition of 'calculateVariance'
+  
+C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(73,13): warning C4297: 'calculateVariance': function assumed not to throw an exception but does
+  (compiling source file '/MathLibrary.cpp')
+      C:\Users\Stepan\source\repos\min2\min2\MathLibrary.cpp(73,13):
+      __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+  
+  min2.vcxproj -> C:\Users\Stepan\source\repos\min2\x64\Debug\min2.dll

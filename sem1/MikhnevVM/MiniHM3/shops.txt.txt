@@ -1,0 +1,21 @@
+Shop Electronics
+Items 5
+Laptop 1200 2.5
+Smartphone 800 0.2
+Tablet1 400 0.5
+Tablet2 500 0.5
+Tablet 600 0.5
+Shop Groceries
+Items 5
+Apple 3000 0.1
+Banana 0.5 0.15
+Orange 0.8 0.2
+Mango 30 1
+Painapple 400 2
+Shop Furniture
+Items 5
+Chair 50 5
+Table 150 15
+Sofa 300 30
+mirror 400 1
+closet 600 10

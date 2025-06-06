@@ -1,0 +1,35 @@
+﻿  HW_01.cpp
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(5,8): warning C4273: srznach: несовместимое связывание dll
+  (компиляция исходного файла "/HW_01.cpp")
+      D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.h(10,29):
+      см. предыдущее определение "srznach"
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(16,8): warning C4273: med: несовместимое связывание dll
+  (компиляция исходного файла "/HW_01.cpp")
+      D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.h(12,29):
+      см. предыдущее определение "med"
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(25,33): warning C4244: аргумент: преобразование "unsigned __int64" в "double", возможна потеря данных
+  (компиляция исходного файла "/HW_01.cpp")
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(25,20): warning C4244: аргумент: преобразование "double" в "const unsigned __int64", возможна потеря данных
+  (компиляция исходного файла "/HW_01.cpp")
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(28,8): warning C4273: skvad: несовместимое связывание dll
+  (компиляция исходного файла "/HW_01.cpp")
+      D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.h(14,29):
+      см. предыдущее определение "skvad"
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(39,8): warning C4273: dis: несовместимое связывание dll
+  (компиляция исходного файла "/HW_01.cpp")
+      D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.h(16,29):
+      см. предыдущее определение "dis"
+  
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(48,24): warning C4244: аргумент: преобразование "double" в "_Ty", возможна потеря данных
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(48,24): warning C4244:         with
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(48,24): warning C4244:         [
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(48,24): warning C4244:             _Ty=float
+D:\C++ Projects in Visual Studio\MyOwnDll\HW_01.cpp(48,24): warning C4244:         ]
+  (компиляция исходного файла "/HW_01.cpp")
+  
+  MyOwnDll.vcxproj -> D:\C++ Projects in Visual Studio\MyOwnDll\x64\Debug\MyOwnDll.dll

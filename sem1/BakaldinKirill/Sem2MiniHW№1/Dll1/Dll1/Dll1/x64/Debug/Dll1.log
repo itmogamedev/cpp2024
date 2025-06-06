@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\k0wal\source\repos\Dll1\Dll1\dllmain.cpp(6,8): warning C4273: arithmeticMean: несовместимое связывание dll
+C:\Users\k0wal\source\repos\Dll1\Dll1\dllmain.cpp(12,8): warning C4273: median: несовместимое связывание dll
+C:\Users\k0wal\source\repos\Dll1\Dll1\dllmain.cpp(24,8): warning C4273: meanSquare: несовместимое связывание dll
+C:\Users\k0wal\source\repos\Dll1\Dll1\dllmain.cpp(33,8): warning C4273: variance: несовместимое связывание dll
+     Создается библиотека C:\Users\k0wal\source\repos\Dll1\Dll1\x64\Debug\Dll1.lib и объект C:\Users\k0wal\source\repos\Dll1\Dll1\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\Users\k0wal\source\repos\Dll1\Dll1\x64\Debug\Dll1.dll

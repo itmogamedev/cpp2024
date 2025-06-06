@@ -1,0 +1,7 @@
+Shop ShopPC
+Items 2
+CPU 100 1.5
+GPU 150 1.0
+Shop ShopFruits
+Items 1
+Apple 2.0 0.2 USA

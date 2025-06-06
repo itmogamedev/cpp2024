@@ -1,0 +1,21 @@
+iphonestore
+items 5
+iphone 13 mini, red, 256, 65990, 157
+iphone 13, black, 256, 77990, 173
+iphone 15 pro, gold, 512, 104990, 187
+iphone 15, white, 128, 89990, 176
+iphone 13, white, 512, 87990, 173
+bookstore
+items 5
+Vlastelin kolec, fantasy, 1200, 3600, 812
+Kolobok, skazka, 10, 250, 100
+Ono, horror, 563, 2000, 376
+Institut, horror, 762, 1650, 523
+Voyna i mir, roman, 2408, 1879, 1590
+sportmaster
+items 5
+ski, equipment, alpine skiing, 6800, 3200
+soccer ball, equipment, soccer, 670, 270
+swimsuit, cloth, swimming, 2200, 127
+tennis racket, equipment, tennis, 1700, 210
+tennis skirt, cloth, tennis, 1290, 97

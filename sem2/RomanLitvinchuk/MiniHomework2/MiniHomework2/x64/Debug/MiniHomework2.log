@@ -1,0 +1,9 @@
+﻿  MiniHomework2.cpp
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(73,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(73,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(79,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(79,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(109,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(137,49): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+E:\C++\Сем 2\MiniHomework2\MiniHomework2.cpp(140,36): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+  MiniHomework2.vcxproj -> E:\C++\Сем 2\MiniHomework2\x64\Debug\MiniHomework2.exe

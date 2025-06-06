@@ -1,0 +1,11 @@
+﻿  MathLibrary.cpp
+E:\C++\MathLibrary\MathLibrary.cpp(9,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/MathLibrary.cpp")
+  
+E:\C++\MathLibrary\MathLibrary.cpp(32,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/MathLibrary.cpp")
+  
+E:\C++\MathLibrary\MathLibrary.cpp(43,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/MathLibrary.cpp")
+  
+  MathLibrary.vcxproj -> E:\C++\MathLibrary\x64\Debug\MathLibrary.dll

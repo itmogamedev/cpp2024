@@ -1,0 +1,8 @@
+﻿  MYDLL.cpp
+D:\C++\MiniHW2_1\MyDLL\MyDLL\MYDLL.cpp(11,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\C++\MiniHW2_1\MyDLL\MyDLL\MYDLL.cpp(32,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\C++\MiniHW2_1\MyDLL\MyDLL\MYDLL.cpp(37,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\C++\MiniHW2_1\MyDLL\MyDLL\MYDLL.cpp(42,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\C++\MiniHW2_1\MyDLL\MyDLL\MYDLL.cpp(45,13): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+     Создается библиотека D:\C++\MiniHW2_1\MyDLL\MyDLL\x64\Debug\MYDLL.lib и объект D:\C++\MiniHW2_1\MyDLL\MyDLL\x64\Debug\MYDLL.exp
+  MyDLL.vcxproj -> D:\C++\MiniHW2_1\MyDLL\MyDLL\x64\Debug\MYDLL.dll

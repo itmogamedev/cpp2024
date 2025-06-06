@@ -1,0 +1,18 @@
+Nvideo
+NVIDIA6090 10000 10 FPS 600
+NVIDIA5090 9999 9 FPS 500
+IntelCPU 300 1 GHz 3.5
+AMDCPU 250 1.5 GHz 3.2
+KingstonRAM 100 0.2 Size 16GB
+Bazar
+Banana 3 1 Vitamins Ka Ca
+Apple 2 1 Vitamins C
+Grapes 5 0.5 Sugar 15g
+Orange 4 1 Vitamins C
+Pineapple 6 2 Vitamins C B6
+UBooks
+GameDevInOurLive 15 0.5 A.Y.Madreimov 2020
+GDSecrets 20 0.8 S.A.Margarita 2022
+NotToday 25 0.6 M.A.Buk 2012
+SevenHours 30 1 A.S.Pushkin 2018
+KimchiHow 10 0.4 S.U.Kim 2024

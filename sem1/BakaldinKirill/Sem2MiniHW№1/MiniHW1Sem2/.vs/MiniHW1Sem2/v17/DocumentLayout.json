@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\k0wal\\source\\repos\\MiniHW1Sem2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B475677C-BD2A-45BB-9BF6-8A952E56A7F1}|MiniHW1Sem2\\MiniHW1Sem2.vcxproj|C:\\Users\\k0wal\\source\\repos\\MiniHW1Sem2\\MiniHW1Sem2\\MiniHW1Sem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B475677C-BD2A-45BB-9BF6-8A952E56A7F1}|MiniHW1Sem2\\MiniHW1Sem2.vcxproj|solutionrelative:MiniHW1Sem2\\MiniHW1Sem2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniHW1Sem2.cpp",
+              "DocumentMoniker": "C:\\Users\\k0wal\\source\\repos\\MiniHW1Sem2\\MiniHW1Sem2\\MiniHW1Sem2.cpp",
+              "RelativeDocumentMoniker": "MiniHW1Sem2\\MiniHW1Sem2.cpp",
+              "ToolTip": "C:\\Users\\k0wal\\source\\repos\\MiniHW1Sem2\\MiniHW1Sem2\\MiniHW1Sem2.cpp",
+              "RelativeToolTip": "MiniHW1Sem2\\MiniHW1Sem2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T18:49:00.6Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

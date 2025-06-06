@@ -1,0 +1,21 @@
+Shop Drinks
+Items 5
+Cola 80 1
+Fanta 70 0.5
+Lemonade 60 0.5
+Sprite 100 1.5
+Tarragon 85 1
+Shop Furniture 
+Items 5
+Sofa 10000 7
+Table 15000 15
+Chair 6000 2
+Dresser 14500 13
+Wardrobe 24000 20
+Shop Hardware
+Items 5
+Hammer 3000 1.5
+Screwriver 500 0.3	
+Cement bag 13000 10
+Pins 150 0.1
+Nails 200 0.2

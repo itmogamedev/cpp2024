@@ -1,0 +1,21 @@
+Shop Fruits
+Items 5
+Apple 52 20
+Avocado 30 23
+Banana 25 53
+Orange 50 35
+Pineapple 666 666
+Shop Vegetables
+Items 5
+Carrot 50 10
+Cucumber 65 99
+Eggplant 666 666
+Onion 1	
+Potato 300
+Shop Flowers
+Items 5
+Chrysanthemum 21 55
+Lily 52 18
+Pion 33 15
+Rose 666 666
+Tulip 77 30

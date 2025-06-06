@@ -1,0 +1,7 @@
+﻿  pch.cpp
+C:\дз по с++\repos\minihomework_1\pch.cpp(6,7): warning C4273: average_arithmetic: несовместимое связывание dll
+      C:\дз по с++\repos\minihomework_1\pch.h(18,26):
+      см. предыдущее определение "average_arithmetic"
+  
+  dllmain.cpp
+  minihomework_1.vcxproj -> C:\дз по с++\repos\minihomework_1\x64\Debug\minihomework_1.dll

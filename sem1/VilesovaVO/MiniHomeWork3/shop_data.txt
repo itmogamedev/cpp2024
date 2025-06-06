@@ -1,0 +1,21 @@
+Shop ShopA
+Items 5
+GPU_RTX3080 1200 2 10
+GPU_RX6800 1100 1.8 9
+GPU_RTX3070 800 1.5 8
+GPU_GTX1660 300 1 6
+GPU_RX6600 400 1.2 7
+Shop ShopB
+Items 5
+Apple 1 0.2 Vitamins A C
+Orange 0.8 0.15 Vitamins C
+Banana 0.5 0.1 Vitamins B6 K
+Pear 1.2 0.25 Vitamins C
+Grape 2 0.3 Vitamins K
+Shop ShopC
+Items 5
+Cherry 1.5 0.1 Vitamins A C
+Strawberry 2 0.15 Vitamins C
+Blueberry 3 0.2 Vitamins A C E
+Raspberry 2.5 0.18 Vitamins C
+Mango 4 0.5 Vitamins A C

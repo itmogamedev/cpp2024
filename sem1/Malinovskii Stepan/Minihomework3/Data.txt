@@ -1,0 +1,28 @@
+Shop dnsShop
+Items 2
+cpu 2
+Intel_7 12 12500 1
+Intel_9 32 125000 5
+gpu 3
+Invidia_5090RTX 5000 50000 4
+Invidia_4090RTX 4000 40000 6 
+Invidia_3090RTX 3000 30000 3 
+Shop patorochkaShop
+Item 2
+egg 3
+SpbEgg 10 500 1
+SpbEgg 15 350 2
+MscEgg 2 1000 0
+bottel 3
+Coca 2 80 3
+Coca 1 100 1
+Sprite 2 150 3
+Shop avtoShop
+Item 2
+car 3
+Mazerati blue 10000000 1000
+Valborgini red 1000000 800
+BMW black 100 10000
+bike 2
+Yamaha 1000 1000000 300
+Uaz 1 1 100000

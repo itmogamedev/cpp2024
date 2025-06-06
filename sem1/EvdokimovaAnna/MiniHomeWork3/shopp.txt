@@ -1,0 +1,23 @@
+Shop Fruits
+Items 5
+Apple 199 1000
+Grapes 500 200
+Pineapple 800 500
+Cherry 200 1000
+Banana 100 100
+
+Shop Vegetables
+Items 5
+Potatoes 40 1000
+Tomatoes 199 1000
+Carrot 149 500
+Courgette 150 100
+Onion 100 100
+
+Shop Drinks
+Items 5
+Wine 2000 950
+Energetic 60 450
+Water 50 1000
+Cola 200 1500
+Mineral water 70 1000

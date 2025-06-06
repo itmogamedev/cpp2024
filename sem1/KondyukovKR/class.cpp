@@ -12,7 +12,7 @@ public:
 class CDerived : public CBase{ // пробуем protected и private тут
   public:
     void updateDerived() {
-      privateBase=0; 
+      privateBase=0;
       protBase=0;
       pubBase=0;
     }

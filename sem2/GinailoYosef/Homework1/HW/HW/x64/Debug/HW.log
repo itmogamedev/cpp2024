@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Development\VS Projects\HW\HW\Source.cpp(8,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  HW.vcxproj -> D:\Development\VS Projects\HW\x64\Debug\HW.exe
+  ..\..\HW_DLL\x64\Release\HW_DLL.dll
+  ╤ъюяшЁютрэю Їрщыют: 1.

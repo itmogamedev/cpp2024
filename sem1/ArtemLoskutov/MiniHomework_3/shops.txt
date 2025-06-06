@@ -1,0 +1,21 @@
+shop 5ka
+items 5
+apple 80rub 200gr
+banana 100rub 200gr
+coconut 120rub 500gr
+water  60rub 500gr
+tomato 90rub 300gr
+shop BMW
+items 5
+car 1000000rub 1000kg
+car 2000000rub 1200kg
+car 2500000rub 1100kg
+car 3000000rub 1500kg
+car 5000000rub 1500kg
+shop Samsung
+items 5
+phone 19999rub 200gr
+laptop 29999rub 2000gr
+tv 49999rub 16000gr
+K9_Thunder 370883317rub 47000000gr
+clock 69999rub 50gr

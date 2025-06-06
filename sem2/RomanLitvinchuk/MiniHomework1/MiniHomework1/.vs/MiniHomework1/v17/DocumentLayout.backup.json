@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C\u002B\u002B\\\u0421\u0435\u043C 2\\MiniHomework1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEEE411-0629-4634-A885-F9C1EF32FAAE}|MiniHomework1.vcxproj|E:\\C\u002B\u002B\\\u0421\u0435\u043C 2\\MiniHomework1\\MiniHomework1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DEEE411-0629-4634-A885-F9C1EF32FAAE}|MiniHomework1.vcxproj|solutionrelative:MiniHomework1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MiniHomework1.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002B\\\u0421\u0435\u043C 2\\MiniHomework1\\MiniHomework1.cpp",
+              "RelativeDocumentMoniker": "MiniHomework1.cpp",
+              "ToolTip": "E:\\C\u002B\u002B\\\u0421\u0435\u043C 2\\MiniHomework1\\MiniHomework1.cpp",
+              "RelativeToolTip": "MiniHomework1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-03T17:31:37.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

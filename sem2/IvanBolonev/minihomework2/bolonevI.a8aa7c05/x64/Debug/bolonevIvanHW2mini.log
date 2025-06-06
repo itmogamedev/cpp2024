@@ -1,0 +1,10 @@
+﻿  bolonevIvanHW2mini.cpp
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(81,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(81,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(87,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(87,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(113,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(156,49): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(159,36): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+C:\Users\Admin\source\repos\bolonevIvanHW2mini\bolonevIvanHW2mini.cpp(167,45): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+  bolonevIvanHW2mini.vcxproj -> C:\Users\Admin\source\repos\bolonevIvanHW2mini\x64\Debug\bolonevIvanHW2mini.exe

@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\LibrariesCPP\SFML-3.0.0-windows-vc17-64-bit\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\LibrariesCPP\SFML-3.0.0-windows-vc17-64-bit\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(71,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(72,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(96,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(120,49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(123,45): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(135,41): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(136,40): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(137,42): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(138,41): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(139,40): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(140,40): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(141,41): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(142,40): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(143,40): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\MineSweeper(practiseCPP)\main.cpp(144,41): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  MineSweeper(practiseCPP).vcxproj -> C:\Users\Meowbook\Desktop\iStudy\cpp\MineSweeper(practiseCPP)\x64\Debug\MineSweeper(practiseCPP).exe

@@ -1,0 +1,23 @@
+﻿  MathHW.cpp
+D:\C++ Projects in Visual Studio\DLL\MathHW.cpp(10,8): warning C4273: calculateMean: несовместимое связывание dll
+  (компиляция исходного файла "/MathHW.cpp")
+      D:\C++ Projects in Visual Studio\DLL\MathHW.h(10,30):
+      см. предыдущее определение "calculateMean"
+  
+D:\C++ Projects in Visual Studio\DLL\MathHW.cpp(16,8): warning C4273: calculateMedian: несовместимое связывание dll
+  (компиляция исходного файла "/MathHW.cpp")
+      D:\C++ Projects in Visual Studio\DLL\MathHW.h(12,30):
+      см. предыдущее определение "calculateMedian"
+  
+D:\C++ Projects in Visual Studio\DLL\MathHW.cpp(28,8): warning C4273: calculateRootMeanSquare: несовместимое связывание dll
+  (компиляция исходного файла "/MathHW.cpp")
+      D:\C++ Projects in Visual Studio\DLL\MathHW.h(14,30):
+      см. предыдущее определение "calculateRootMeanSquare"
+  
+D:\C++ Projects in Visual Studio\DLL\MathHW.cpp(37,8): warning C4273: calculateVariance: несовместимое связывание dll
+  (компиляция исходного файла "/MathHW.cpp")
+      D:\C++ Projects in Visual Studio\DLL\MathHW.h(16,30):
+      см. предыдущее определение "calculateVariance"
+  
+     Создается библиотека D:\C++ Projects in Visual Studio\DLL\x64\Debug\DLL.lib и объект D:\C++ Projects in Visual Studio\DLL\x64\Debug\DLL.exp
+  DLL.vcxproj -> D:\C++ Projects in Visual Studio\DLL\x64\Debug\DLL.dll

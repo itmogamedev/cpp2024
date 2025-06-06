@@ -1,0 +1,6 @@
+﻿  MidleDll.lib(dllmain.obj) : найден .netmodule MSIL или модуль, откомпилированный с параметром /GL; перезапускается компоновка с параметром /LTCG; добавьте /LTCG в командную строку компоновки для повышения производительности компоновщика
+LINK : warning LNK4075: не учитывается "/INCREMENTAL" из-за спецификации "/LTCG"
+MidleDll.lib(dllmain.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "0" не соответствует значению "2" в Mini_HW_Test.obj
+MidleDll.lib(dllmain.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MD_DynamicRelease" не соответствует значению "MDd_DynamicDebug" в Mini_HW_Test.obj
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+C:\Users\Makas\source\repos\Mini_HW_Test\x64\Debug\Mini_HW_Test.exe : fatal error LNK1319: обнаружено несоответствий: 2
