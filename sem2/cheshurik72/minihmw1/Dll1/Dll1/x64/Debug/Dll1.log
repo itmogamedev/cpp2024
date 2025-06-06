@@ -1,0 +1,72 @@
+﻿  pch.cpp
+  dllmain.cpp
+  math.cpp
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(4,7): warning C4273: arm: несовместимое связывание dll
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.h(14,17):
+      см. предыдущее определение "arm"
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(7,34): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(7,34): warning C4244:         with
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(7,34): warning C4244:         [
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(7,34): warning C4244:             _Ty=float
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(7,34): warning C4244:         ]
+  (компиляция исходного файла "/math.cpp")
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(14,7): warning C4273: med: несовместимое связывание dll
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.h(15,17):
+      см. предыдущее определение "med"
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(16,9): warning C4297: med: ожидается, что функция не будет выдавать исключения, но она это делает
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(16,9):
+      для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(29,7): warning C4273: dsp: несовместимое связывание dll
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.h(16,17):
+      см. предыдущее определение "dsp"
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(35,30): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(35,30): warning C4244:         with
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(35,30): warning C4244:         [
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(35,30): warning C4244:             _Ty=float
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(35,30): warning C4244:         ]
+  (компиляция исходного файла "/math.cpp")
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(31,9): warning C4297: dsp: ожидается, что функция не будет выдавать исключения, но она это делает
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(31,9):
+      для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(42,7): warning C4273: sq: несовместимое связывание dll
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.h(17,17):
+      см. предыдущее определение "sq"
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(48,30): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(48,30): warning C4244:         with
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(48,30): warning C4244:         [
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(48,30): warning C4244:             _Ty=float
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(48,30): warning C4244:         ]
+  (компиляция исходного файла "/math.cpp")
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(54,30): warning C4244: инициализация: преобразование "_Ty" в "int", возможна потеря данных
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(54,30): warning C4244:         with
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(54,30): warning C4244:         [
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(54,30): warning C4244:             _Ty=float
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(54,30): warning C4244:         ]
+  (компиляция исходного файла "/math.cpp")
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(58,30): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "/math.cpp")
+  
+D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(44,9): warning C4297: sq: ожидается, что функция не будет выдавать исключения, но она это делает
+  (компиляция исходного файла "/math.cpp")
+      D:\ИТМА\projectsC++\Dll1\Dll1\math.cpp(44,9):
+      для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+  
+  Создание кода...
+     Создается библиотека D:\ИТМА\projectsC++\Dll1\x64\Debug\Dll1.lib и объект D:\ИТМА\projectsC++\Dll1\x64\Debug\Dll1.exp
+  Dll1.vcxproj -> D:\ИТМА\projectsC++\Dll1\x64\Debug\Dll1.dll
