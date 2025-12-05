@@ -1,0 +1,11 @@
+﻿  main.cpp
+D:\C++\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: class "std::runtime_error", не являющийся dll-интерфейсом, использован в качестве базового для dll-интерфейса class "sf::Exception"
+D:\C++\SFML1\main.cpp(85,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\C++\SFML1\main.cpp(85,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+D:\C++\SFML1\main.cpp(91,32): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\C++\SFML1\main.cpp(91,17): warning C4244: инициализация: преобразование "float" в "const int", возможна потеря данных
+D:\C++\SFML1\main.cpp(119,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\C++\SFML1\main.cpp(144,49): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\C++\SFML1\main.cpp(147,36): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+D:\C++\SFML1\main.cpp(150,45): warning C4244: аргумент: преобразование "float" в "unsigned int", возможна потеря данных
+  SFML1.vcxproj -> D:\C++\SFML1\x64\Debug\SFML1.exe
