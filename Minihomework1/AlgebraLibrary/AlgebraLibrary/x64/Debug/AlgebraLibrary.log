@@ -1,0 +1,8 @@
+﻿  AlgebraLibrary.cpp
+C:\Users\Мещеряков Никита\Desktop\VS\C++Libs\AlgebraLibrary\AlgebraLibrary\AlgebraLibrary.cpp(13,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  (компиляция исходного файла "/AlgebraLibrary.cpp")
+  
+C:\Users\Мещеряков Никита\Desktop\VS\C++Libs\AlgebraLibrary\AlgebraLibrary\AlgebraLibrary.cpp(46,42): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "/AlgebraLibrary.cpp")
+  
+  AlgebraLibrary.vcxproj -> C:\Users\Мещеряков Никита\Desktop\VS\C++Libs\AlgebraLibrary\x64\Debug\AlgebraLibrary.dll
