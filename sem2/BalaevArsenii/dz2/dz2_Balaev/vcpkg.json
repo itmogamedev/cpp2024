@@ -1,0 +1,10 @@
+{
+  "name": "sfmlapp-fixed",
+  "version": "0.1.0",
+  "dependencies": [
+    {
+      "name": "sfml",
+      "features": [ "graphics" ]
+    }
+  ]
+}

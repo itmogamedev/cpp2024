@@ -1,0 +1,158 @@
+Detecting compiler hash for triplet x86-windows...
+Compiler found: F:/VISstuud/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x86/cl.exe
+Detecting compiler hash for triplet x64-windows...
+Compiler found: F:/VISstuud/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe
+The following packages will be built and installed:
+  * freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3
+  * libflac[core,stack-protector]:x86-windows@1.4.3#2
+  * libogg:x86-windows@1.3.5#2
+  * libvorbis:x86-windows@1.3.7#4
+  * miniaudio:x86-windows@0.11.22
+    sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\n1gma4\AppData\Local\vcpkg\archives in 426 us. Use --debug to see more details.
+Installing 1/6 freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3...
+Building freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3...
+-- Using cached freetype-freetype-VER-2-13-3.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/freetype/src/VER-2-13-3-8b423a038b.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/freetype-freetype-VER-2-13-3.tar.gz
+-- Applying patch 0003-Fix-UWP.patch
+-- Applying patch brotli-static.patch
+-- Applying patch bzip2.patch
+-- Applying patch fix-exports.patch
+-- Using source at F:/vcpkg/buildtrees/freetype/src/VER-2-13-3-8b423a038b.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: F:/vcpkg/packages/freetype_x86-windows/lib/pkgconfig/freetype2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at F:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: F:/vcpkg/packages/freetype_x86-windows/debug/lib/pkgconfig/freetype2.pc
+-- Installing: F:/vcpkg/packages/freetype_x86-windows/share/freetype/usage
+-- Performing post-build validation
+Starting submission of freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3 to 1 binary cache(s) in the background
+Elapsed time to handle freetype:x86-windows: 19 s
+freetype:x86-windows package ABI: 42226a75d516e9b914c719ff62c289970fe3f37aed0dd15c33368106b49ee983
+Installing 2/6 miniaudio:x86-windows@0.11.22...
+Building miniaudio:x86-windows@0.11.22...
+-- Using cached mackron-miniaudio-0.11.22.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/miniaudio/src/0.11.22-72ab6761dd.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/mackron-miniaudio-0.11.22.tar.gz
+-- Using source at F:/vcpkg/buildtrees/miniaudio/src/0.11.22-72ab6761dd.clean
+-- Installing: F:/vcpkg/packages/miniaudio_x86-windows/include/miniaudio.h
+-- Installing: F:/vcpkg/packages/miniaudio_x86-windows/share/miniaudio/copyright
+-- Performing post-build validation
+Starting submission of miniaudio:x86-windows@0.11.22 to 1 binary cache(s) in the background
+Elapsed time to handle miniaudio:x86-windows: 1.9 s
+miniaudio:x86-windows package ABI: 30c30dc55e6bd564d4102a6f55fd09cf6de199215bd8320541fa7c8bec68152f
+Installing 3/6 libogg:x86-windows@1.3.5#2...
+Building libogg:x86-windows@1.3.5#2...
+-- Using cached xiph-ogg-v1.3.5.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/libogg/src/v1.3.5-1a4243fef9.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/xiph-ogg-v1.3.5.tar.gz
+-- Using source at F:/vcpkg/buildtrees/libogg/src/v1.3.5-1a4243fef9.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: F:/vcpkg/packages/libogg_x86-windows/lib/pkgconfig/ogg.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at F:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: F:/vcpkg/packages/libogg_x86-windows/debug/lib/pkgconfig/ogg.pc
+-- Installing: F:/vcpkg/packages/libogg_x86-windows/share/libogg/copyright
+-- Performing post-build validation
+Starting submission of libogg:x86-windows@1.3.5#2 to 1 binary cache(s) in the background
+Elapsed time to handle libogg:x86-windows: 29 s
+libogg:x86-windows package ABI: a460d8effbcba610e022a8227138a82f86992d55b3e4081e31f0f3e675abeb94
+Completed submission of freetype[brotli,bzip2,core,png,zlib]:x86-windows@2.13.3 to 1 binary cache(s) in 12 s
+Completed submission of miniaudio:x86-windows@0.11.22 to 1 binary cache(s) in 12 s
+Installing 4/6 libvorbis:x86-windows@1.3.7#4...
+Building libvorbis:x86-windows@1.3.7#4...
+-- Using cached xiph-vorbis-v1.3.7.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/libvorbis/src/v1.3.7-c32164610e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+-- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+-- Applying patch 0002-Fixup-pkgconfig-libs.patch
+-- Applying patch 0003-def-mingw-compat.patch
+-- Applying patch 0004-ogg-find-dependency.patch
+-- Using source at F:/vcpkg/buildtrees/libvorbis/src/v1.3.7-c32164610e.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/lib/pkgconfig/vorbisfile.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at F:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/debug/lib/pkgconfig/vorbis.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/debug/lib/pkgconfig/vorbisenc.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libvorbis_x86-windows/debug/lib/pkgconfig/vorbisfile.pc
+-- Installing: F:/vcpkg/packages/libvorbis_x86-windows/share/libvorbis/usage
+-- Installing: F:/vcpkg/packages/libvorbis_x86-windows/share/libvorbis/copyright
+-- Performing post-build validation
+Starting submission of libvorbis:x86-windows@1.3.7#4 to 1 binary cache(s) in the background
+Elapsed time to handle libvorbis:x86-windows: 15 s
+libvorbis:x86-windows package ABI: 72acef43c3e661cd460786a17ef6cea8b12e41f75ae979f23b65f77d5e0710ab
+Completed submission of libogg:x86-windows@1.3.5#2 to 1 binary cache(s) in 11 s
+Installing 5/6 libflac[core,stack-protector]:x86-windows@1.4.3#2...
+Building libflac[core,stack-protector]:x86-windows@1.4.3#2...
+-- Using cached xiph-flac-1.4.3.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/libflac/src/1.4.3-00043104ae.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/xiph-flac-1.4.3.tar.gz
+-- Applying patch fix-compile-options.patch
+-- Using source at F:/vcpkg/buildtrees/libflac/src/1.4.3-00043104ae.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: F:/vcpkg/packages/libflac_x86-windows/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libflac_x86-windows/lib/pkgconfig/flac.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at F:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: F:/vcpkg/packages/libflac_x86-windows/debug/lib/pkgconfig/flac++.pc
+-- Fixing pkgconfig file: F:/vcpkg/packages/libflac_x86-windows/debug/lib/pkgconfig/flac.pc
+-- Installing: F:/vcpkg/packages/libflac_x86-windows/share/libflac/copyright
+-- Installing: F:/vcpkg/packages/libflac_x86-windows/share/libflac/usage
+-- Performing post-build validation
+Starting submission of libflac[core,stack-protector]:x86-windows@1.4.3#2 to 1 binary cache(s) in the background
+Elapsed time to handle libflac:x86-windows: 42 s
+libflac:x86-windows package ABI: 5b83eed4cdaa9f7dadfb459795fac4007f3ea7a217c966a03d101dea06fd77da
+Completed submission of libvorbis:x86-windows@1.3.7#4 to 1 binary cache(s) in 12 s
+Installing 6/6 sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1...
+Building sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1...
+-- Using cached SFML-SFML-3.0.0.tar.gz
+-- Cleaning sources at F:/vcpkg/buildtrees/sfml/src/3.0.0-c8cd3229b2.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source F:/vcpkg/downloads/SFML-SFML-3.0.0.tar.gz
+-- Applying patch 01-fix-findudev-module.patch
+-- Applying patch 02-fix-dependency-resolve.patch
+-- Using source at F:/vcpkg/buildtrees/sfml/src/3.0.0-c8cd3229b2.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at F:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Installing: F:/vcpkg/packages/sfml_x86-windows/share/sfml/copyright
+-- Performing post-build validation
+Starting submission of sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1 to 1 binary cache(s) in the background
+Elapsed time to handle sfml:x86-windows: 1.2 min
+sfml:x86-windows package ABI: d47f2a83ce41d1109013b3d3286451a9104493a938ae1dde0b87c68838f26eef
+Total install time: 2.9 min
+The package sfml provides CMake targets:
+
+    find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE SFML::Network SFML::Graphics SFML::Window SFML::Audio SFML::System)
+
+    # If you want SFML to provide an implementation of main():
+    target_link_libraries(main PRIVATE SFML::Main)
+
+Completed submission of libflac[core,stack-protector]:x86-windows@1.4.3#2 to 1 binary cache(s) in 11 s
+Waiting for 1 remaining binary cache submissions...
+Completed submission of sfml[audio,core,graphics,network,window]:x86-windows@3.0.0#1 to 1 binary cache(s) in 13 s (1/1)
