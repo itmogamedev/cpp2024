@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  THIS_LIBRARIE_IS_AWESOME.cpp
+C:\Users\olesy\OneDrive\cpp_progects\cpp2024\sem1\mokrushinaOV\s2_mini_hw_1_mokrushina\cool_programm_for_sure\THIS_LIBRARIE_IS_AWESOME\THIS_LIBRARIE_IS_AWESOME.cpp(39,64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/THIS_LIBRARIE_IS_AWESOME.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects\cpp2024\sem1\mokrushinaOV\s2_mini_hw_1_mokrushina\cool_programm_for_sure\THIS_LIBRARIE_IS_AWESOME\THIS_LIBRARIE_IS_AWESOME.cpp(41,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/THIS_LIBRARIE_IS_AWESOME.cpp')
+  
+C:\Users\olesy\OneDrive\cpp_progects\cpp2024\sem1\mokrushinaOV\s2_mini_hw_1_mokrushina\cool_programm_for_sure\THIS_LIBRARIE_IS_AWESOME\THIS_LIBRARIE_IS_AWESOME.cpp(47,65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/THIS_LIBRARIE_IS_AWESOME.cpp')
+  
+  THIS_LIBRARIE_IS_AWESOME.vcxproj -> C:\Users\olesy\OneDrive\cpp_progects\cpp2024\sem1\mokrushinaOV\s2_mini_hw_1_mokrushina\cool_programm_for_sure\x64\Debug\THIS_LIBRARIE_IS_AWESOME.lib
